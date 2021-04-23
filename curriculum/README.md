@@ -254,4 +254,4 @@ If there's anything inside that you think could be better, don't hesitate to tel
 
 Good luck with your journey and happy coding!
 
-_This curriculum was culled from HacYourfuture.
+_This curriculum was culled from [HackYourfuture](https://github.com/HackYourFuture/curriculum).
