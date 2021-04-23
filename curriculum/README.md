@@ -1,6 +1,6 @@
 # Techrity Mentorship Curriculum
 
-> Here you can find an overview of the HackYourFuture program. It gives insight into how our program is structured, organized, what you can expect from the modules that we teach and last but not least where we teach and where you can find support during the week. Below you can find an outline of the contents and learning goals per module. The headers of the different modules link to the actual repositories that both student and teacher will use to go through the material.
+> Here you can find an overview of the Techrity Menttorship program. It gives insight into how our program is structured, organized, what you can expect from the modules that we teach and last but not least where we teach and where you can find support during the week. Below you can find an outline of the contents and learning goals per module. The headers of the different modules link to the actual repositories that both student and teacher will use to go through the material.
 
 - Are you a new mentor? Take a look [here](https://github.com/techrityorg/mentorship) for some practical tips on how to get started!
 - Are you a new student? Be sure to get started with our [Welcome Guide](https://github.com/techrityorg/Mentorship/blob/main/welcome.md) to see how to prepare for your first class and beyond!
@@ -10,8 +10,6 @@
 The HackYourFuture curriculum consists of 8 modules, spread over 7 months. Each module has a duration of 3 weeks, with the exception of [JavaScript](https://www.github.com/hackyourfuture/javascript) (4 weeks), [React](https://www.github.com/hackyourfuture/react) (5 weeks) and [Project](https://www.github.com/hackyourfuture/project) (7 weeks).
 
 In the following diagram you'll find the sequence of all the modules included:
-
-![Curriculum](./assets/curriculum.png)
 
 ## Learning goals
 
@@ -24,8 +22,6 @@ If you follow the program you'll learn the following skills:
 - Have a basic understanding of what it means to work on digital products
 
 ## Module #1 - [HTML/CSS/GIT](https://github.com/HackYourFuture/HTML-CSS)
-
-![HTML/CSS](./assets/html-css.png)
 
 Welcome to the wonderful world of web development! In this module you will learn the basic building blocks of the web: HTML and CSS. HTML gives us the power to add text, images and videos to a page. CSS gives us the power to organize these parts and make it look nice.
 
@@ -58,8 +54,6 @@ By the end of this module, students should have a familiarity with and basic und
 
 ## Module #2 - [JavaScript](https://github.com/HackYourFuture/JavaScript/)
 
-![JavaScript](./assets/javascript.png)
-
 In this module you'll make a start into the wonderful world of programming. We will be using the programming language JavaScript to do so. You'll learn about the basic building blocks of programming: `loops`, `functions`, `control flow` and more. Consider these as the ABC's of programming, without them it's impossible to write working software!
 
 
@@ -83,8 +77,6 @@ By the end of this module, students should have a familiarity with and basic und
 
 ## Module #3 - [Browsers](https://github.com/HackYourFuture/Browsers)
 
-![Browsers](./assets/browsers.png)
-
 In **Browsers** you'll learn all about how to use JavaScript within the browser. First, you'll learn about how HTML is structured within your browser: we call this the `Document Object Model` (DOM). Once you've gotten the hang of that we'll apply JavaScript to it, in order to manipulate the elements and make our pages more interactive. We call this `DOM manipulation` and it's one of the most interesting things about JavaScript! We will finish off with a group project to already combine everything you have learned into your first web application. Besides the technical part, you'll improve your 'soft skills' as well in the [Presentation module](https://github.com/HackYourFuture/presentation-module). This is a two weeks program that will get you out of your comfort zone. Check the Read.me file for a more detailed explanation and overview. 
 
 | Week | Topic | Reading Materials | Homework |
@@ -103,8 +95,6 @@ In order to successfully complete this module you will need to master the follow
 - Be able to present your ideas in a professional setting
 
 ## Module #4 - [Using API's](https://github.com/HackYourFuture/UsingAPIs)
-
-![JavaScript3](./assets/usingapis.png)
 
 A big part of being a programmer means moving data from one place to another. It also means working with other people's software. In this module you'll be learning about one of the core things of what makes a web developer: working with APIs! On top of that you'll also learn how to think differently about how you write your programs. Like in any field, once you've mastered a particular way of doing things you start thinking about how it could be done differently. In the end you will also build a full project by yourself that takes data from publicly available API's to create a web application with substance!
 
@@ -126,8 +116,6 @@ In order to successfully complete this module you will need to master the follow
 - Be able to nail an interview
 
 ## Module #5 - [Node.js](https://github.com/HackYourFuture/Node.js)
-
-![Node.js](./assets/nodejs.png)
 
 Any software application consists of at least 2 parts: a frontend, which is what the user sees and interacts with, and a backend. This module will expose you to the wonderful world of backend development, where you learn all about where your data goes once you've pressed that submit button. You'll be writing web servers and learn how to send users the right feedback.
 
@@ -152,8 +140,6 @@ In this module you will get familiar with the world of backend development. By t
 
 ## Module #6 - [Databases](https://github.com/HackYourFuture/databases)
 
-![Databases](./assets/databases.png)
-
 In this module you'll learn all about a fundamental part of any software application: how to (safely) store data, so that it can be used on-demand. You'll learn how to structure and group data so your apps know where to find and store the correct data.
 
 | Week | Topic                                                                         | Readings                                                                               | Homework                                                                               | Lesson Plan                                                                                   |
@@ -174,8 +160,6 @@ In this module you will get familiar with the complexity of storing data. By the
 - Learn about NoSQL databases, with an emphasis on `MongoDB`
 
 ## Module #7 - [React](https://github.com/HackYourFuture/React)
-
-![React.js](./assets/react.png)
 
 In these 5 weeks we will go back to the frontend and learn how to make faster, more modern user interfaces. You'll become more familiar with a frontend technology called [React.js](https://reactjs.org/), a JavaScript library written and maintained by Facebook.
 
@@ -205,9 +189,7 @@ By the end of this module, students should have a familiarity with and basic und
 
 ## Module #8 - [Project](https://github.com/HackYourFuture/Project)
 
-![Project](./assets/project.png)
-
-In the upcoming 7 weeks you'll be immersed into the web developer life. By the end of it you will have created a full-stack web application and published it to the internet.
+In the upcoming 12 weeks you'll be immersed into the web developer life. By the end of it you will have created a full-stack web application and published it to the internet.
 
 Everything you have learned so far will be combined and put into practice. Added to that you'll learn some more cutting-edge technologies that will prepare you for a great start in a modern software company. We will start out with the basics and incrementally add more complexity. This way you'll learn how all the pieces of a RESTful API fit together, thereby gaining a deeper understanding of where the backend stops and the frontend starts.
 
@@ -272,7 +254,4 @@ If there's anything inside that you think could be better, don't hesitate to tel
 
 Good luck with your journey and happy coding!
 
-_The HackYourFuture curriculum is subject to CC BY copyright. This means you can freely use our materials, but just make sure to give us credit for it :)_
-
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-Our curriculum is subject to CC BY copyright. This means you can freely use our materials, but just make sure to give us credit for it:)
+_This curriculum was culled from HacYourfuture.

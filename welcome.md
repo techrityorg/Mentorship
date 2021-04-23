@@ -15,7 +15,7 @@ We are all about creating equal access to opportunities in Tech for Africans.
 
 - Be sure to check your email for the date, time and important details for the introduction session and your starting day.
 - Please read our (complete) student manual to be better prepared. You can find the manual [here](https://github.com/techrityorg/culture/blob/main/manual.md).
-- Take a quick look at our curriculum already. Get familiar with it's structure and content. You can find it [here](http://www.github.com/techrityorg/curriculum).
+- Take a quick look at our curriculum already. Get familiar with it's structure and content. You can find it [here](https://github.com/techrityorg/Mentorship/tree/main/curriculum).
 - 
 
 Looking forward to meeting you all, and please let us know if you have any questions!
