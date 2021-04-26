@@ -5,6 +5,8 @@ This repo contains all resources for the Techrity Mentorship Program
 ## Description
 We create amicable interactions between mentor’s & mentee’s. We imbibe the “Everyone is Someone” culture. We pay close attention to our mentees and ensure they learn in a safe and progressive environment.
 
+See our [Dos and Donts](/Dos&Donts.md) for Mentors and Mentees
+
 ## Mentors
 Our mentorship program connects people who have specific skills such as coding, product management, project management, writing, etc. and knowledge (mentors) with individuals (proteges) who may need these same skills to develop their skill set.
 

@@ -1,5 +1,7 @@
 # Welcome to Techrity Mentorship Program!
 
+See our [Dos and Donts](/Dos&Donts.md) for Mentors and Mentees!
+
 Congratulations for being accepted into the Techrity Mentorship Program! You should be proud of yourself. We are!
 
 Techrity is a non-profit social enterprise who helps kickstart beginners in tech careers by providing vital resources like Data, laptops and mentorship support for their journey to be a success. 
