@@ -21,11 +21,10 @@ assistance where needed | **Force:** do not attempt to force a mentee in one dir
 | **Take the initiative:** recognize the need for mentoring and seek it out | **Avoid difficulties:** do not expect mentors to solve all your problems for you |
 | **Avoid perfectionism:** accept that you will make mistakes, and learn from them | **Sidestep work:** do not expect mentors to do work that you should be doing yourselves |
 | **Maintain balance:** preserve time for family and friends | **Stay in your comfort zone:** do not shy away from new learning experiences |
-| **Work hard:** are prepared to give your best | **Take advantage:** do not use friendship with a
-mentor as a tool to avoid work or escape consequences of your own activities
+| **Work hard:** are prepared to give your best | 
+**Take advantage:** do not use friendship with a mentor as a tool to avoid work or escape consequences of your own activities
 | **Support your peers:** exchange personal and professional support with fellow trainees | **Bottle it up:** do not avoid talking about problems, anxieties, or grief because it makes you seem less than perfect |
-| **Welcome experience:** are enthusiastic about pursuing the widest range of professional
-experience | **Let your ego get in the way:** recognize that everyone in the community has something to teach you 
+| **Welcome experience:** are enthusiastic about pursuing the widest range of professional experience | **Let your ego get in the way:** recognize that everyone in the community has something to teach you 
 | **Seek counseling:** solicit advice or counseling if you experience problems with depression, substance abuse, or burnout 
 
 > Culled from [bgsu.edu](https://www.bgsu.edu/content/dam/BGSU/provost/center-undergraduate-research-scholarship/documents/Dos-and-Don-ts-of-Montors-and-Mentees.pdf)
