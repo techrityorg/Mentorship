@@ -3,8 +3,7 @@
 ## What makes a good mentor? 
 
 | What a mentor does | What a mentor does not do 
---
-| **Listen:** function as a sounding board for problems
+| --- | --- |
 and ideas | **Protect from experience:** do not assume the
 role of problem solver for the mentees 
 | **Criticize constructively:** point out areas that need
@@ -35,7 +34,7 @@ than those who trained them
 ## What makes a good mentee?
 
 | What a mentee DOES | What a mentee DOES NOT do
---
+| --- | --- |
 | **Take the initiative:** recognize the need for
 mentoring and seek it out | **Avoid difficulties:** do not expect mentors to
 solve all your problems for you 
@@ -59,3 +58,5 @@ nurses, and patients) has something to teach you
 | **Seek counseling:** solicit advice or counseling if you
 experience problems with depression, substance
 abuse, or burnout 
+
+> Culled from [bgsu.edu](https://www.bgsu.edu/content/dam/BGSU/provost/center-undergraduate-research-scholarship/documents/Dos-and-Don-ts-of-Montors-and-Mentees.pdf)
