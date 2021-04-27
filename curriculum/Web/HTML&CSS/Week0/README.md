@@ -1,6 +1,6 @@
-# Welcome to HackYourFuture!
+# Welcome to Techrity!
 
-Hi new student, welcome to HackYourFuture! In this document you'll find all the instructions you need in order to prepare yourself for your journey in HackYourFuture, and beyond!
+Hi, new mentee, welcome to Techrity! In this document, you'll find all the instructions you need in order to prepare yourself for your journey in TMP, and beyond!
 
 ## Agenda
 
@@ -106,6 +106,6 @@ Let's make sure you have done everything necessary:
 
 Have you finished with everything? Be proud of yourself, as you have optimally prepared yourself with all the tools needed to make your coding adventure a success!
 
-Before getting technical, please read about the HackYourFuture culture [here](https://github.com/HackYourFuture/culture) and also check [these scenarios](https://github.com/HackYourFuture/culture/blob/main/scenarios.md) that will give you a hint on how we work. The first or second week of the course, there will be a collaborative session with your whole class to discuss all of this.
+Before getting technical, please read about the mentee's dons&donts [here](/Dos&Donts.md) and also check the [student manual](/curriculum/student-manual.md) that will give you a hint on how we work. The first or second week of the course, there will be a collaborative session with your whole class to discuss all of this.
 
-Now, with that out of the way we can get started with the readings for the first week. You can find that [here](https://github.com/HackYourFuture/HTML-CSS/blob/master/Week1/README.md). Make sure you've finished it before your first class on Sunday!
+Now, with that out of the way we can get started with the readings for the first week. You can find that [here](https://github.com/techrityorg/Mentorship/tree/main/curriculum/Web/HTML%26CSS/Week1).
