@@ -67,6 +67,7 @@ This leads to the following insight about writing code: while code is written to
 Take a look at the following resources to learn more about semantic HTML:
 
 - [Semantic HTML](https://www.internetingishard.com/html-and-css/semantic-html/)
+- [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
 - [HTML5 as Fast as Possible](https://www.youtube.com/watch?v=IsXEVQRaTX8)
 
 ## 3. Introduction to CSS
@@ -131,6 +132,10 @@ Read the following articles to learn about it:
 
 - [The "C" in CSS](https://css-tricks.com/the-c-in-css-the-cascade/).
 - [How CSS works: understanding the cascade](https://blog.logrocket.com/how-css-works-understanding-the-cascade-d181cd89a4d8)
+
+It is also important to understand how CSS can be used to arrange the layout of HTML elements. To start with, the short article below provides relevant information:
+
+- [Fundamentals of CSS Layouts](https://learnlayout.com/no-layout.html)
 
 ## Finished?
 
