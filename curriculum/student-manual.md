@@ -22,18 +22,13 @@ Here are the core values we live by. We’ll discuss these in more detail as the
 - **Technical Growth:** We want you to grow your skills.
 - **Pay it Forward:** After receiving guidance from our mentors, we encourage you to also remain in the community and mentor other.
 
-
 ## Our Learning Method
 
 Welcome to something different. Learning is best when it’s immersive and engaging. It’s a combination of some theory and a big focus on personal engagement and practical applications every step of the way.
 
 Your learning experience in Techrity Mentorship Program will include:
 
-- Pre-class reading and videos
-- 2 offline classes every week
-- 1 mentor meetup per week
-- Feynman hours (students teaching students)
-- Monthly classroom projects
+- Weekly classes & Challenges and assignments
 - A final class project
 
 Not everyone will complete this process. We guarantee you that. If you do though, you’ll be positioned far ahead of your peers and will be launching your career on the best foundation you’ll find anywhere in Africa.
@@ -44,18 +39,13 @@ Program phases
 
 | Phase | Type | Timeline
 | --- | --- | --- | 
-|Phase 1 | Pre-Assessment | 2 Weeks
-|Phase 2 | Weekly classes & Challenges | 4 Weeks
-|Phase 3 | Capstone project | 4 weeks
-|Phase 4 | Internship placement
-
+| 10 May | Weekly classes & Challenges | 10 weeks |
+| | Capstone Project| 2 Weeks|
 
 ## Program Requirements
+
 - A personal computer with audio and video call capabilities
 - A smartphone
-
-## Our Partners
-We’re excited to partner with prestigious organizations to bring you this program.
 
 ## Our Mentors
 We’re committed to top-quality learning and we’re excited to be partnering with teachers and mentors work for top organizations in Nigeria and abroad. 
