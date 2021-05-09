@@ -1,4 +1,4 @@
-> If you are following the HackYourFuture curriculum we recommend you to first take a look at the complete curriculum, which you can find [here](https://github.com/Techrityorg/curriculum).
+> If you are following the TMP curriculum we recommend you to first take a look at the complete curriculum, which you can find [here](https://github.com/Techrityorg/curriculum).
 
 > Please help us improve and share your feedback! If you find better tutorials or links, please share them by [opening a pull request](https://github.com/Techrityorg/HTML&CSS/pulls).
 
