@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github repo URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Solution URL: [github repo URL](https://github.com/faozziyyah/weather-app)
+- Live Site URL: [live site URL](https://faozziyyah.github.io/weather-app/)
 
 ## My process
 
@@ -155,4 +155,4 @@ const updateCity = async (city ) => {
 - Daud Faozziyyah 
 
 ### Headshot
-![](img/headshot.jpg)
+<img src="img/headshot.jpg" width="60" height="55">

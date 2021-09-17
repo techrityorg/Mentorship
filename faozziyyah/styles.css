@@ -12,11 +12,13 @@ body {
 }
 
 aside {    
-    background-color: #4568dc;
+    background-color: #dee4e7;
+    color: black;
     justify-content: center;
     align-items: center;
     text-align: center;
     border-top-left-radius: 8px;
+    padding-bottom: 1.5em;
 }
 
 form {
@@ -53,6 +55,26 @@ input {
     display: none;
 }
 
+.h-4{
+    font-size: 15px;
+}
+
+.p-1{
+    margin-top: -1.5em;
+}
+
+#weatherIcon{
+    width: 40%;
+}
+
+#details{
+    margin-top: -1em;
+}
+
+#sunset{
+    margin-top: -1em;
+}
+
 ion-icon{
     -webkit-animation: animate 1s linear infinite;
     animation: animate 1s linear infinite;
@@ -85,8 +107,20 @@ ion-icon{
     color: #fff;
 }
 
+.details h1{
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.h-2{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
 main {
-    background-color: #552cc4;
+    background-color: #898dd1;
    /* background-image: linear-gradient(#06beb6 , #48b1bf); */
     display: flex;
     flex-direction: column;
@@ -126,6 +160,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-weight: 700;
     border-radius: 5px;
     padding-bottom: 10px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
@@ -133,6 +168,15 @@ main {
               0 4px 4px rgba(0,0,0,0.12), 
               0 8px 8px rgba(0,0,0,0.12),
               0 16px 16px rgba(0,0,0,0.12);
+}
+
+.icon{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
 }
 
 /* mobile design*/
