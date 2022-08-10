@@ -51,7 +51,7 @@ See [Techrity Mentorship Program 2022 Cohort I](/TMP2021/README.md)
 - You can make minimum of five contacts with your mentor throughout the program
 - You can take a minimum of one professional development opportunity
 
-## Submit Projects
+## Submitting Projects
 
 To submit your project, locate the [instructions](/TMP2022/) in any of the track you belong to, follow the instructions to submit a project.
 
