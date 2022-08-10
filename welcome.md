@@ -1,5 +1,7 @@
 # Welcome to Techrity Mentorship Program!
 
+![Techrity Mentorship Program](/TMP2022/tmp_banner.jpg)
+
 See our [Dos and Donts](/Dos&Donts.md) for Mentors and Mentees!
 
 Congratulations for being accepted into the Techrity Mentorship Program! You should be proud of yourself. We are!
@@ -17,11 +19,11 @@ We are all about creating equal access to opportunities in Tech for Africans.
 
 - Be sure to check your email for the date, time and important details for the introduction session and your starting day.
 - Please read our (complete) student manual to be better prepared. You can find the manual [here](https://github.com/techrityorg/culture/blob/main/manual.md).
-- Take a quick look at our curriculum already. Get familiar with it's structure and content. You can find it [here](https://github.com/techrityorg/Mentorship/tree/main/curriculum).
+- Take a quick look at our curriculum already. Check Slack for Details.
 - 
 
 Looking forward to meeting you all, and please let us know if you have any questions!
 
 Warm regards,
 
-The Techrity team
+The Techrity Team
