@@ -1,15 +1,9 @@
-# Techrity Mentorship Programs
+# Techrity Mentorship Program 2021
 
-This repo contains all resources for the **Techrity Mentorship Program**
+The **Techrity Mentorship Program** is a structured program that aims to connect people via mentoring, increase knowledge and build skills.
 
-- [Techrity Mentorship Program 2021 Cohort I](/TMP2021/README.md)
-- [Techrity Mentorship Program 2022 Cohort II](/TMP2022/README.md)
-
-## Description
-
-We create amicable interactions between mentor’s & mentee’s. We imbibe the “Everyone is Someone” culture. We pay close attention to our mentees and ensure they learn in a safe and progressive environment.
-
-See our [Dos and Donts](/Dos&Donts.md) for Mentors and Mentees
+- See [Techrity Mentorship Program 2022 Cohort II](/TMP2022/README.md)
+- See our [Dos and Donts](/Dos&Donts.md) for Mentors and Mentees
 
 ## Mentors
 
@@ -38,6 +32,4 @@ Our successful mentees are encouraged to pay it forward by joining the mentors t
 ## Our Mentees 
 
 **TMP 2021 Mentees**
-
-
 
