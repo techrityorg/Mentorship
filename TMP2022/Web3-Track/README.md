@@ -1,5 +1,7 @@
 # Instructions
 
+Welcome to the **Web3 Track**
+
 Please copy the info in this file: **instructions.md** and fill together with your hosted project URL and code in a folder with your name as title.
 
 _Title of Project_
