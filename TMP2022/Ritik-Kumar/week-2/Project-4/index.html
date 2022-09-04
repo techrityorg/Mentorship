@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: violet;
+        overflow-x: hidden;
+      }
+      .container {
+        height: 100vh;
+        background-image: url(./school.jpg);
+        background-size: cover;
+      }
+      footer {
+        height: max-content;
+        width: 110%;
+        padding: 1rem;
+        background-color: rgb(0, 0, 0);
+        color: rgb(97, 92, 83);
+        text-align: center;
+        width: 100vw;
+      }
+      ul {
+        display: flex;
+      }
+      li {
+        margin: 1rem 2rem;
+        list-style: none;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        filter: drop-shadow(1px 1px 1rem black);
+        color: rgb(186, 223, 240);
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      .knowMore {
+        position: absolute;
+        top: 90%;
+        left: 45%;
+        color: white;
+        filter: drop-shadow(1px 1px 1rem rgb(255, 255, 255));
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .name {
+        font-size: 10rem;
+        color: pink;
+        text-align:center;
+        margin-top: 8rem;
+        filter: drop-shadow(1px 1px 1rem black);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href=".">Home</a></li>
+          <li><a href="./toppers.html">Toppers</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="name">the Divine School</div>
+      <div class="knowMore">
+        <h2><a href="./about.html">Know More</a></h2>
+      </div>
+    </div>
+    <footer><p>the Divine School. All rights reserved©️</p></footer>
+  </body>
+</html>
