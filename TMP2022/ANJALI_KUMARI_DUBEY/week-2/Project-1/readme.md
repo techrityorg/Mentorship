@@ -13,7 +13,7 @@ This is a solution to the Week-2: Project-1 on Techrity Frontend Development Men
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
    - [Name of Mentor](#mentor)
-   -[Mentee Name](#mentee)
+   - [Mentee Name](#mentee)
 
 ## Overview
 
