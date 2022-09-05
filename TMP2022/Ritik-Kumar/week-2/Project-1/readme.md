@@ -30,13 +30,14 @@ Biodata contains:
 
 ### Screenshots
 
-![image](https://user-images.githubusercontent.com/83454075/188494592-fe6acfd7-7a53-4ef1-bfdc-55035f2b959a.png)
-![image](https://user-images.githubusercontent.com/83454075/188494752-1fc6a375-d46a-4a8d-9e08-e88c0083f9c8.png)
-![image](https://user-images.githubusercontent.com/83454075/188494869-b0ac5cd5-d4b5-4e15-86e1-3e4953f9c0f9.png)
+![image](https://user-images.githubusercontent.com/78131705/188498486-5609d9be-9e7b-4808-bf81-6f471b70cab6.png)
+![image](https://user-images.githubusercontent.com/78131705/188498510-1fa5bacf-ccae-454f-b3c8-651ada69d26e.png)
+![image](https://user-images.githubusercontent.com/78131705/188498540-415dd42c-7f98-4790-b965-a07cd0aee987.png)
+
 
 ### Link
 
-- Solution URL: [github repo URL](https://github.com/)
+- Solution URL: [github repo URL](https://github.com/srivastavaritik/techrity-)
 
 ## Built with
 
