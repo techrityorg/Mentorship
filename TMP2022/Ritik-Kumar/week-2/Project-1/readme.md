@@ -1,12 +1,12 @@
-# Techrity Mentorship Week-2: Project-1 - Biodata
+# Techrity Mentorship Week-2: Project-1 - Biodata Page
 
-This is a solution to the Week-2: Project-1 on Techrity Frontend Development Mentorship. 
+This is a solution to the Week-2: Project-1 of Techrity Frontend Development Mentorship. 
 
 ## Table of contents
 
 - [Overview](#overview)
   - [Title of the project](#title)
-  - [The contents](#the-contents)
+  - [Brief](#brief)
   - [Screenshots](#screenshots)
   - [Link](#link)
 - [Built with](#built-with)
@@ -18,15 +18,16 @@ This is a solution to the Week-2: Project-1 on Techrity Frontend Development Men
 ## Overview
 
 ### Title
-Biodata
+Biodata Page
 
-### The contents
+### Brief
 
-Biodata contains:
+The Biodata page contains:
 
-- My name along with my photograph and contact details.
-- My education details.
-- My achievements and experiences. 
+- My name along with my photograph.
+- My education details and experiences.
+- My achievements. 
+- My contact details.
 
 ### Screenshots
 
@@ -55,5 +56,5 @@ Biodata contains:
 - Siddhi Bhanushali - [siddhi-244](https://github.com/siddhi-244)
 
 ### Mentee
-- Ritik Kumar
+- Ritik Kumar - [srivastavaritik](https://github.com/srivastavaritik)
 
