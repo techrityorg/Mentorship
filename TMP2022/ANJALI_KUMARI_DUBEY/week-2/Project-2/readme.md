@@ -26,7 +26,7 @@ The form website that takes name, age, gender, degree, graduation year, resume, 
 
 ### Screenshot
 
-image.png
+![image](https://user-images.githubusercontent.com/83454075/188549275-d0fb9d5d-5ef7-4834-b303-81199873184e.png)
 
 ### Link
 
