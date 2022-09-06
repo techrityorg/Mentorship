@@ -26,7 +26,7 @@ Biodata contains:
 
 - My name along with my photograph and contact details.
 - My education details.
-- My achievements and experiences. 
+- My experiences and achievements. 
 
 ### Screenshots
 
