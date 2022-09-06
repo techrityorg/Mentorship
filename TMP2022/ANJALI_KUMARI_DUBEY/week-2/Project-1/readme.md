@@ -1,6 +1,6 @@
 # Techrity Mentorship Week-2: Project-1 - Biodata
 
-This is a solution to the Week-2: Project-1 on Techrity Frontend Development Mentorship. 
+This is a solution to the Week-2: Project-1 of Techrity Frontend Development Mentorship. 
 
 ## Table of contents
 
