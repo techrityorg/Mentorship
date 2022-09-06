@@ -31,10 +31,10 @@ The School Website contains:
 
 ### Screenshots
 
-image.png
-image.png
-image.png
-image.png
+![image](https://user-images.githubusercontent.com/83454075/188548525-499ad089-8c11-4d00-b00e-2fbe5adcaf8e.png)
+![image](https://user-images.githubusercontent.com/83454075/188548659-82a3e775-58ac-4a9e-901e-0f5bac3fdfc1.png)
+![image](https://user-images.githubusercontent.com/83454075/188548721-51f41ca9-11a0-40b9-ad62-6fb65442dc16.png)
+![image](https://user-images.githubusercontent.com/83454075/188548758-66f34cf0-3162-4dde-88c1-257506c88243.png)
 
 ### Link
 
