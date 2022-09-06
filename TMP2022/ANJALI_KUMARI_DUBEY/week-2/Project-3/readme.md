@@ -26,7 +26,7 @@ The table contains 16 HTML Tags along with its types i.e. Inline Tag or Block Ta
 
 ### Screenshot
 
-image.png
+![image](https://user-images.githubusercontent.com/83454075/188549031-c4c5678f-1b53-4746-b956-1570579e1453.png)
 
 ### Link
 
