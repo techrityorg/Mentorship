@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEF2E6;
+    text-align: center;
+}
+.heading{
+    background-color: #1C6758;
+    color: #EEF2E6;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    padding-top: 7px;
+    margin-bottom: 50px;
+}
+.container {
+    margin: auto;
+    width: 50%;
+    border: #1C6758 solid ;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.input{
+    
+    border: #3D8361 solid 2px;
+    border-radius: 5px;
+    width: 200px;
+    outline: none;
+}
+.labels{
+    background-color: #3D8361;
+    border-radius: 20px;
+}
+.submit-btn{
+    background-color: #3D8361;
+    border: #D6CDA4 solid;
+    border-radius: 20px;
+    width: 10%;
+    height: 40px;
+    outline: none;
+    color: #EEF2E6;
+    font-size: larger;
+}
+.labels-brief
+{
+    display:inline-block;
+    background-color: #3D8361;
+    border-radius: 20px;
+}
+.gndr::selection
+{
+    background-color: #1C6758;
+}
+.rd-btn{
+    accent-color: #3D8361;
+}
+.upload{
+    border: #1C6758 solid 2px;
+    border-radius: 20px;
+    width: 205px;
+}
+.upload::-webkit-file-upload-button{
+    background-color: #EEF2E6;
+    color: #1C6758;
+    border: #1C6758 solid 1px;
+    border-radius: 20px;
+    outline: none;
+}
+.intro{
+    border: #1C6758 solid  2px;
+    border-radius: 20px;
+}
