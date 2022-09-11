@@ -1,4 +1,4 @@
-# Techrity Mentorship Week-3: Project-4 - Responsive School Website
+# Techrity Mentorship Week-2: Project-4 - School Website
 
 This is a solution to the Week-3: Project-4 of Techrity Frontend Development Mentorship. 
 
