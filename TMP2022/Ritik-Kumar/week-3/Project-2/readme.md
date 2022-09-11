@@ -27,6 +27,7 @@ The webiste consists of:
 - Responsive Profile Card
 
 ### Screenshots
+![image](https://user-images.githubusercontent.com/78131705/189536542-b1ba85c5-52e6-416b-8bed-838608c67465.png)
 
 
 ### Link
