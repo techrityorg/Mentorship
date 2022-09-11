@@ -30,6 +30,10 @@ The webiste consists of:
 - About Page
 
 ### Screenshots
+![image](https://user-images.githubusercontent.com/78131705/189535973-8ddcc562-90e3-48df-ad3e-bdd86e4550a2.png)
+![image](https://user-images.githubusercontent.com/78131705/189535983-12d32b88-67a0-4caa-8c76-a60950ad0df6.png)
+![image](https://user-images.githubusercontent.com/78131705/189535992-f6274f70-5535-47d1-a95b-5a63a0cf8327.png)
+![image](https://user-images.githubusercontent.com/78131705/189536000-4b5663d7-e8b5-4ff9-b42f-764dd99c2d06.png)
 
 
 ### Link
