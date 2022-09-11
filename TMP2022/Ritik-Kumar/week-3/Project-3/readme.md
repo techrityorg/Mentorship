@@ -27,7 +27,7 @@ The webiste consists of:
 - HTML CSS Carousel
 
 ### Screenshots
-
+![image](https://user-images.githubusercontent.com/78131705/189536867-00da73b9-7c0b-43e0-9e6e-a86968474705.png)
 
 ### Link
 
