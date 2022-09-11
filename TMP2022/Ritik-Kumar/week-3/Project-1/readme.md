@@ -1,4 +1,4 @@
-# Techrity Mentorship Week-2: Project-4 - School Website
+# Techrity Mentorship Week-3: Project-1 - Form
 
 This is a solution to the Week-3: Project-4 of Techrity Frontend Development Mentorship. 
 
@@ -18,17 +18,13 @@ This is a solution to the Week-3: Project-4 of Techrity Frontend Development Men
 ## Overview
 
 ### Title
-School Website
+Form
 
 ### Brief
 
 The webiste consists of:
 
-- Home Page
-- Toppers Detail Page
-- Contact Page
-- About Page
-
+- A HTML Form
 ### Screenshots
 
 
