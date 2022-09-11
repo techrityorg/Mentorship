@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#register-form {
+    width: 800px;
+    background-color: aliceblue;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.input-label {
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.input-item {
+    width: 100%;
+}
+
+#terms-check {
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+
+#btn {
+    background-color: lightblue;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(76, 236, 76);
+}
+
+.submission {
+    display: flex;
+    justify-content: center;
+}
