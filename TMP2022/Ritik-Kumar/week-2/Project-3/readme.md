@@ -1,13 +1,14 @@
-# Techrity Mentorship Week-2: Project-1 - Biodata Page
 
-This is a solution to the Week-2: Project-1 of Techrity Frontend Development Mentorship. 
+# Techrity Mentorship Week-2: Project-3 - Table of HTML Tags
+
+This is a solution to the Week-2: Project-3 of Techrity Frontend Development Mentorship. 
 
 ## Table of contents
 
 - [Overview](#overview)
   - [Title of the project](#title)
   - [Brief](#brief)
-  - [Screenshots](#screenshots)
+  - [Screenshot](#screenshot)
   - [Link](#link)
 - [Built with](#built-with)
 - [Author](#author)
@@ -18,23 +19,18 @@ This is a solution to the Week-2: Project-1 of Techrity Frontend Development Men
 ## Overview
 
 ### Title
-Biodata Page
+Table of HTML Tags
 
 ### Brief
 
-The Biodata page contains:
+The Table contains 15 HTML tags with its description and  its type as:
 
-- My name along with my photograph.
-- My education details and experiences.
-- My achievements. 
-- My contact details.
+- Inline Tag or
+- Block Tag
 
-### Screenshots
+### Screenshot
 
-![image](https://user-images.githubusercontent.com/78131705/188498486-5609d9be-9e7b-4808-bf81-6f471b70cab6.png)
-![image](https://user-images.githubusercontent.com/78131705/188498510-1fa5bacf-ccae-454f-b3c8-651ada69d26e.png)
-![image](https://user-images.githubusercontent.com/78131705/188498540-415dd42c-7f98-4790-b965-a07cd0aee987.png)
-
+![image](https://user-images.githubusercontent.com/78131705/188561060-18d4fdf8-b60e-4847-ad77-3671c71727cf.png)
 
 ### Link
 
@@ -57,4 +53,3 @@ The Biodata page contains:
 
 ### Mentee
 - Ritik Kumar - [srivastavaritik](https://github.com/srivastavaritik)
-

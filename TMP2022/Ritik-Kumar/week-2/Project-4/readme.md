@@ -1,6 +1,6 @@
-# Techrity Mentorship Week-2: Project-1 - Biodata Page
+# Techrity Mentorship Week-2: Project-4 - School Website
 
-This is a solution to the Week-2: Project-1 of Techrity Frontend Development Mentorship. 
+This is a solution to the Week-2: Project-4 of Techrity Frontend Development Mentorship. 
 
 ## Table of contents
 
@@ -18,23 +18,23 @@ This is a solution to the Week-2: Project-1 of Techrity Frontend Development Men
 ## Overview
 
 ### Title
-Biodata Page
+School Website
 
 ### Brief
 
-The Biodata page contains:
+The webiste consists of:
 
-- My name along with my photograph.
-- My education details and experiences.
-- My achievements. 
-- My contact details.
+- Home Page
+- Toppers Detail Page
+- Contact Page
+- About Page
 
 ### Screenshots
 
-![image](https://user-images.githubusercontent.com/78131705/188498486-5609d9be-9e7b-4808-bf81-6f471b70cab6.png)
-![image](https://user-images.githubusercontent.com/78131705/188498510-1fa5bacf-ccae-454f-b3c8-651ada69d26e.png)
-![image](https://user-images.githubusercontent.com/78131705/188498540-415dd42c-7f98-4790-b965-a07cd0aee987.png)
-
+![image](https://user-images.githubusercontent.com/78131705/188561387-029de52e-fae1-45cc-bc75-dda39b5ec496.png)
+![image](https://user-images.githubusercontent.com/78131705/188561451-72c5fa46-99a2-4879-a3ea-79c675ead196.png)
+![image](https://user-images.githubusercontent.com/78131705/188561476-70032e58-e5a1-418e-8d85-d1bb63cd611d.png)
+![image](https://user-images.githubusercontent.com/78131705/188561525-1d05787d-d9a9-4a09-8ee0-877ade693a54.png)
 
 ### Link
 
@@ -57,4 +57,3 @@ The Biodata page contains:
 
 ### Mentee
 - Ritik Kumar - [srivastavaritik](https://github.com/srivastavaritik)
-
