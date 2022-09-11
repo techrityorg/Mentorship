@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  padding: 2rem;
+  margin: 0;
+  background-color: rgb(121, 2, 61);
+  color: rgb(212, 161, 208);
+  font-family: sans-serif;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #4a0053;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0 2rem;
+}
+@media only screen and (max-width: 990px) {
+  h2 a {
+    display: none;
+  }
+}
