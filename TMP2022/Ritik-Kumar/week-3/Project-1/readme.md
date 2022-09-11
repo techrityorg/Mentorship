@@ -1,6 +1,6 @@
 # Techrity Mentorship Week-3: Project-1 - Form
 
-This is a solution to the Week-3: Project-4 of Techrity Frontend Development Mentorship. 
+This is a solution to the Week-3: Project-1 of Techrity Frontend Development Mentorship. 
 
 ## Table of contents
 
@@ -26,6 +26,7 @@ The webiste consists of:
 
 - A HTML Form
 ### Screenshots
+![image](https://user-images.githubusercontent.com/78131705/189535900-aaa62bd3-b4a3-4fe5-ac52-0ea01e192e17.png)
 
 
 ### Link
