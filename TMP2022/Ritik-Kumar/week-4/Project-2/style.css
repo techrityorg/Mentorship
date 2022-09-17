@@ -1,0 +1,47 @@
+h1 {
+      text-align: center;
+    padding: 23px;
+    color: #ffffff;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+#clear {
+  width: 270px;
+  border: 3px solid gray;
+  border-radius: 3px;
+  padding: 20px;
+  background-color: rgb(200 215 221);
+}
+
+.formstyle {
+  color: black;
+    width: 610px;
+    height: max-content;
+    margin: auto;
+}
+
+input {
+ color: black;
+    border-radius: 1rem;
+    padding: 1rem 3.7rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#calc {
+  cursor: text;
+    width: 80%;
+    background-color: rgb(200 215 221);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.btn {
+      cursor: pointer;
+    background-color: darkslateblue;
+}
