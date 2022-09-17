@@ -25,6 +25,7 @@ The webiste consists of:
 - A simple Calculator which can perform all arithmetic operations.
 
 ### Screenshots
+![image](https://user-images.githubusercontent.com/78131705/190863561-bcbea87d-b3e6-4f82-8178-66c87ced2c8f.png)
 
 ### Link
 - Solution URL: [github repo URL](https://github.com/srivastavaritik/techrity-)
