@@ -1,0 +1,26 @@
+html{
+    background-image:linear-gradient(rgb(33, 33, 214),rgb(26, 136, 26));
+}
+img{
+    border-radius: 15%;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px rgb(174, 161, 161);
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: rgb(152, 189, 189);
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(19, 19, 19);
+
+}
+footer{
+    color:rgb(152, 189, 189);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+}
