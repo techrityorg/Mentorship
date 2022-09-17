@@ -6,3 +6,4 @@ The carousel is made using html and css . The styling and all other effects are 
 This projects is built as basic intro to frontend web developement through the mentorship program . 
 here is the demo image of the project :-
 
+![image](https://user-images.githubusercontent.com/90853282/190854097-75f8fe16-2f5e-4c21-99bc-80642973c16a.png)
