@@ -1,6 +1,6 @@
-# Techrity Mentorship Week-4: Project-3 - Form
+# Techrity Mentorship Week-4: Project-2 - JavaScript Calculator
 
-This is a solution to the Week-4: Project-3 of Techrity Frontend Development Mentorship.
+This is a solution to the Week-4: Project-2 of Techrity Frontend Development Mentorship.
 
 ## Table of contents
 
@@ -18,15 +18,13 @@ This is a solution to the Week-4: Project-3 of Techrity Frontend Development Men
 ## Overview
 
 ### Title
-Form
+JavaScript Calculator
 
 ### Brief
 The webiste consists of:
-- A HTML Form styled with CSS and whose inputs are validated using JavaScript.
+- A simple Calculator which can perform all arithmetic operations.
 
 ### Screenshots
-pic1 half filled form with alert
-pic2 successfully submitted alert along with complete background.
 
 ### Link
 - Solution URL: [github repo URL](https://github.com/srivastavaritik/techrity-)

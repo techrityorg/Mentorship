@@ -1,6 +1,6 @@
-# Techrity Mentorship Week-3: Project-1 - Form
+# Techrity Mentorship Week-4: Project-1 - Age Calculator
 
-This is a solution to the Week-3: Project-1 of Techrity Frontend Development Mentorship. 
+This is a solution to the Week-4: Project-1 of Techrity Frontend Development Mentorship.
 
 ## Table of contents
 
@@ -18,25 +18,23 @@ This is a solution to the Week-3: Project-1 of Techrity Frontend Development Men
 ## Overview
 
 ### Title
-Form
+Age Calculator
 
 ### Brief
-
 The webiste consists of:
+- An age calculator which take Date of Birth and prints the total Age.
 
-- A HTML Form
 ### Screenshots
-![image](https://user-images.githubusercontent.com/78131705/189535900-aaa62bd3-b4a3-4fe5-ac52-0ea01e192e17.png)
 
 
 ### Link
-
 - Solution URL: [github repo URL](https://github.com/srivastavaritik/techrity-)
 
 ## Built with
 
-- HTML5 
+- HTML5
 - CSS3
+- JavaScript
 
 ## Author
 
