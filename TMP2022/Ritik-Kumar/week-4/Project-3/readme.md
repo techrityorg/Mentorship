@@ -25,8 +25,9 @@ The webiste consists of:
 - A HTML Form styled with CSS and whose inputs are validated using JavaScript.
 
 ### Screenshots
-pic1 half filled form with alert
-pic2 successfully submitted alert along with complete background.
+![image](https://user-images.githubusercontent.com/78131705/190863625-48871507-03ef-4b4a-a93b-cb327912eceb.png)
+![image](https://user-images.githubusercontent.com/78131705/190863651-3ea51664-b279-4da2-bae3-fc3a45081e4d.png)
+![image](https://user-images.githubusercontent.com/78131705/190863664-f1d8dd15-df08-4281-afd2-c5c730a8b7cb.png)
 
 ### Link
 - Solution URL: [github repo URL](https://github.com/srivastavaritik/techrity-)
