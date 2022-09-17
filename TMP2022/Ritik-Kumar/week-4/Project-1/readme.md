@@ -25,7 +25,8 @@ The webiste consists of:
 - An age calculator which take Date of Birth and prints the total Age.
 
 ### Screenshots
-
+![image](https://user-images.githubusercontent.com/78131705/190863499-d61cc5f7-846d-435e-900c-0964d9635e61.png)
+![image](https://user-images.githubusercontent.com/78131705/190863517-e2b4636f-cf73-4d0d-ac82-351c19e8840a.png)
 
 ### Link
 - Solution URL: [github repo URL](https://github.com/srivastavaritik/techrity-)
