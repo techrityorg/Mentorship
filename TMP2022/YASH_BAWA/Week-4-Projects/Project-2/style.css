@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(144, 177, 206);
+    
+}
+.container {
+    
+    margin-top: 150px;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-decoration:underline;
+    color:rgb(0, 0, 0);
+    text-shadow:2px 2px whitesmoke;
+    border:2px solid rgb(144, 177, 206) ;
+    background-color:rgb(100, 155, 204) ;
+    margin-left: 570px;
+    margin-right: 570px;
+    padding: 10px 10px ;
+    border-radius: 5px;
+}
+.inner_container {
+    margin-top: 30px;
+    border:2px solid rgb(144, 177, 206) ;
+    background-color:rgb(100, 155, 204) ;
+    padding: 10px 10px ;
+    border-radius: 2%;
+    margin-left: 590px;
+    margin-right: 590px;
+    
+   
+}
+
+#clear{
+    width: 2.8cm;
+    border-radius: 10%;
+}
+input{
+    font-size: large;
+    background-image:linear-gradient(rgba(0, 128, 0, 0.902),rgba(255, 255, 0, 0.852));
+    color:black;
+    border-radius: 20%;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+
+}
+#screen {
+    width: 4cm;
+    border-radius: 10%;
+}
+/* footer  */
+
+footer {
+    font-weight: bold;
+    font-size: large;
+    position: absolute;
+    bottom: 5px;
+    right:42%;
+    color:darkblue;
+    text-shadow:2px 2px white;
+}

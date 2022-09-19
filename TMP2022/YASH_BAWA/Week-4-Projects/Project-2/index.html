@@ -1,0 +1,53 @@
+<!-- basic calci -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>CALCULATOR</h1>
+      <div class="inner_container">
+        <div>
+          <input type="text" id="screen" placeholder="0"/>
+        </div>
+        <div>
+          <input type="button" class="number"  value="1" id ="1" onclick="valuebutton('1')"></input>
+          <input type="button" class="number" value="2" id="2" onclick="valuebutton('2')"></input>
+          <input type="button" class="number" value="3" id="3" onclick="valuebutton('3')"></input>
+          <input type="button" class="number" value="+" id="+" onclick="valuebutton('+')"></input>
+        </div>
+        <div>
+          <input type="button" class="number" value="4" onclick="valuebutton('4')"></input>
+          <input type="button"  class="number" value="5" onclick="valuebutton('5')"></input>
+          <input type="button"  class="number" value="6" onclick="valuebutton('6')"></input>
+          <input type="button"  class="number" value="-" onclick="valuebutton('-')"></input>
+        </div>
+        <div>
+          <input type="button"  class="number" value="7" onclick="valuebutton('7')"></input>
+          <input type="button"  class="number" value="8" onclick="valuebutton('8')"></input>
+          <input type="button"  class="number" value="9" onclick="valuebutton('9')"></input>
+          <input type="button"  class="number" value="*" onclick="valuebutton('*')"></input>
+        </div>
+        <div>
+          <input type="button"  class="number" value="%" onclick="valuebutton('%')"></input>
+          <input type="button"  class="number" value="/" onclick="valuebutton('/')"></input>
+          <input type="button"  class="number" value="." onclick="valuebutton('.')"></input>
+          <input type="button"  class="number" value="=" onclick="calculate()"></input>
+        </div>
+        <div>
+          <input type="button" class="number" id='clear' value="clear" onclick="clear('a')"></input>
+        </div>
+      </div>
+      <footer>
+        Made with♥ by:- Yash Bawa ☻ 
+      </footer>
+    </div>
+  </body>
+  
+</html>
