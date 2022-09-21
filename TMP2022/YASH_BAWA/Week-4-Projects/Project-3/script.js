@@ -1,5 +1,5 @@
 const validate = () => {
-    console.log('sdsmd');
+    console.log('asas');
     if (form.name.value == "")
     {
         alert ("Enter your name")
@@ -8,10 +8,10 @@ const validate = () => {
     {
         alert ("Enter the age");
     }
-    else if (form.graduation_year.value == ' '){
+    else if (form.graduation-year.value == ' '){
         alert ("Enter the graduation year")
     }
-    else if (form.input_item.value == ' ')
+    else if (form.input-item.value == ' ')
     {
         alert ("Brief about yourself")
     }
@@ -20,7 +20,6 @@ const validate = () => {
         alert ("Details about your degree")
     }
     else{
-        console.log("pass")
         alert ("The form has been successfully Submitted ☻");
     // document.getElementById("content").innerHTML = "Your form has been successfully Submitted ☻";
     }
