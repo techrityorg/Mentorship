@@ -13,10 +13,8 @@ function calculate (){
     output.value= eval(output.value);
 }
 console.log(temp);
-function clear(a){
-    console.log(output.value);
+function clearValue(){
     output = document.getElementById("screen");
-    output.value=a;
-    console.log(a);
+    output.value='0';
 // 
 }
