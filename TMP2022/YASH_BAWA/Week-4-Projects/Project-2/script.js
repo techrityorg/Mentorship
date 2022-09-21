@@ -7,16 +7,12 @@ function valuebutton (e)
     temp = output.value;
     console.log(temp);
 }
-console.log(temp);
 function calculate (){
     output = document.getElementById("screen");
     output.value= eval(output.value);
 }
-console.log(temp);
-function clear(a){
-    console.log(output.value);
+function clearValue(){
     output = document.getElementById("screen");
-    output.value=a;
-    console.log(a);
+    output.value="";
 // 
 }

@@ -45,3 +45,13 @@ button{
     text-align: center;
     color:chartreuse;
 }
+.btn {
+    border : 2px solid chartreuse;
+    background-color: chartreuse;
+    color : white;
+    width: 2cm;
+    text-align: center;
+    border-radius:5px;
+    font-size: larger;
+    margin-top: 2cm; 
+}
