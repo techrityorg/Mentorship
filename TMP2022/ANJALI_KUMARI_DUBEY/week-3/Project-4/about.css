@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  padding: 2rem;
+  margin: 4rem;
+  overflow: hidden;
+  background-color: rgb(201, 230, 195);
+  color: rgb(34, 59, 34);
+  font-family: sans-serif;
+  border: 1px grey solid;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0 2rem;
+}
+
+@media only screen and (max-width: 990px) {
+    body{
+        text-align: center;
+    padding: 1rem;
+    overflow-y: scroll;
+    }
+    a{
+        padding: 0;
+        font-size: 1.5rem;
+    }
+}

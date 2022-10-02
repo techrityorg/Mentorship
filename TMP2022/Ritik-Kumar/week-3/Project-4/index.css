@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background-color: violet;
+  overflow-x: hidden;
+}
+.container {
+  height: 100vh;
+  background-image: url(./school.jpg);
+  background-size: cover;
+}
+footer {
+  height: max-content;
+  width: 110%;
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
+  color: rgb(97, 92, 83);
+  text-align: center;
+  width: 100vw;
+}
+ul {
+  display: flex;
+  font-size: 2rem;
+  color: rgb(186, 223, 240);
+}
+li {
+  margin: 1rem 2rem;
+  list-style: none;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  filter: drop-shadow(1px 1px 1rem black);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.km {
+    width: 100%;
+  position: absolute;
+  top: 90%;
+display: flex;
+justify-content: center;
+}
+
+.knowMore {
+  color: white;
+  filter: drop-shadow(1px 1px 1rem rgb(255, 255, 255));
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.name {
+  font-size: 10rem;
+  color: pink;
+  text-align: center;
+  margin-top: 8rem;
+  filter: drop-shadow(1px 1px 1rem black);
+}
+@media only screen and (max-width: 990px) {
+  ul {
+    display: flex;
+    font-size: 1rem;
+    color: rgb(74 99 110);
+  }
+  li {
+    margin: 1rem;
+  }
+  .name {
+    font-size: 5rem;
+  }
+  footer{
+    padding: 0;
+  }
+  form{
+    padding: 1rem;
+  }
+  input,textarea{
+    width: fit-content;
+  }
+}
