@@ -51,3 +51,10 @@ https://github.com/YashBawa/Mentorship/edit/Week-2-projects/TMP2022/YASH_BAWA/We
 - Linkedin - [Yash Bawa](https://www.linkedin.com/in/yash-bawa-45362121b/)
 - GitHub - [YashBawa](https://github.com/YashBawa)
 
+## Acknowledgments
+
+### Mentor
+- Siddhi Bhanushali - [siddhi-244](https://github.com/siddhi-244)
+
+### Mentee
+- Yash Bawa
