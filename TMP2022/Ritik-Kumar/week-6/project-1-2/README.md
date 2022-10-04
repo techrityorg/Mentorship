@@ -25,6 +25,7 @@ The webiste consists of:
 - A Weather App in ReactJS
 
 ### Screenshots
+![image](https://user-images.githubusercontent.com/78131705/193798603-ae2b3718-83f2-48da-8810-7b8b399a22ac.png)
 
 ### Link
 - Solution URL: [github repo URL](https://github.com/srivastavaritik/techrity-)
