@@ -1,6 +1,6 @@
-# Techrity Mentorship Week-6: Project-3 - Weather App in ReactJS
+# Techrity Mentorship Week-6: Project-1&2 - Portfolio Website in ReactJS
 
-This is a solution to the Week-6: Project-3 of Techrity Frontend Development Mentorship.
+This is a solution to the Week-6: Project-1&2 of Techrity Frontend Development Mentorship.
 
 ## Table of contents
 
@@ -12,22 +12,26 @@ This is a solution to the Week-6: Project-3 of Techrity Frontend Development Men
 - [Built with](#built-with)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-   - [Name of Mentor](#mentor)
-   - [Mentee Name](#mentee)
+  - [Name of Mentor](#mentor)
+  - [Mentee Name](#mentee)
 
 ## Overview
 
 ### Title
-Weather App in ReactJS
+
+Portfolio Website in ReactJS
 
 ### Brief
+
 The webiste consists of:
-- A Weather App in ReactJS
+
+- A Portfolio Website in ReactJS
 
 ### Screenshots
-![image](https://user-images.githubusercontent.com/78131705/193798603-ae2b3718-83f2-48da-8810-7b8b399a22ac.png)
+![image](https://user-images.githubusercontent.com/78131705/193799342-ec7fdef6-f6e3-43c0-8142-10f382d0dfee.png)
 
 ### Link
+
 - Solution URL: [github repo URL](https://github.com/srivastavaritik/techrity-)
 
 ## Built with
@@ -44,7 +48,9 @@ The webiste consists of:
 ## Acknowledgments
 
 ### Mentor
+
 - Siddhi Bhanushali - [siddhi-244](https://github.com/siddhi-244)
 
 ### Mentee
+
 - Ritik Kumar - [srivastavaritik](https://github.com/srivastavaritik)
