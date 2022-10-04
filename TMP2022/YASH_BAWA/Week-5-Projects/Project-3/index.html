@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strong Password Genrator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="h-screen bg-blue-400 flex flex-col items-center justify-center">
+      <!-- header -->
+      <div class="box-border w-1/2 h-1/2 border-4 flex flex-col items-center justify-center ">
+        <div class="heading">
+          <p class="text-wheat-900 font-serif  font-bold text-xl">Not able to get a good pasword here,</p>
+          <p class="text-wheat-900 font-serif font-bold text-5xl text-center">Password Genrator</p>
+        </div>
+        <!-- main content -->
+        <div class="flex flex-col">
+          <input
+            class="mt-8"
+            type="text"
+            id="data"
+            placeholder="Your password is here"
+            readonly
+          />
+          <div class="flex flex-row gap-4">
+            <button class="box-border  h-12 w-12 border-rose-900 hover:box-content" onclick="password_genrator()">Create</button>
+            <button onclick="copypass()">Copy</button>
+          </div>
+        </div>
+        <!-- footer -->
+      </div>
+      <div >Made with ♥ by Yash Bawa ☻</p></div>
+    </div>
+  </body>
+</html>
