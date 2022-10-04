@@ -25,6 +25,9 @@ The webiste consists of:
 - A Weather App
 
 ### Screenshots
+![image](https://user-images.githubusercontent.com/78131705/193797864-dd740b79-a843-4029-bc98-de9ec36fbb0d.png)
+![image](https://user-images.githubusercontent.com/78131705/193797975-09f4f270-ebbb-4d99-89dd-21c1539b946b.png)
+
 
 ### Link
 - Solution URL: [github repo URL](https://github.com/srivastavaritik/techrity-)
