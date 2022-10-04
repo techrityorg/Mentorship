@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Project: Form</title>
+
+    </head>
+
+    <body>
+        <h1>REGISTRATION FORM</h1>
+        <form id="registration-form" method="get">
+
+            <div>
+                <p class="input-label">Name:</p>
+                <input class="input-item" type="text" name="name" title="Name">
+            </div>
+
+            <div>
+                <p class="input-label">Gender:</p>
+                <input type="radio" name="male" value="male" title="Male">Male</input>
+                <input type="radio" name="female" value="female" title="Female">female</input>
+                <input type="radio" name="others" value="others" title="Others">Others</input>
+            </div>
+
+            <div>
+                <p class="input-label">Age:</p>
+                <input class="input-item" type="number" name="age" title="Age">
+            </div>
+
+            <div>
+                <p class="input-label">Degree:</p>
+                <input class="input-item" type="text" name="degree" title="Degree">
+            </div>
+
+            <div>
+                <p class="input-label">Graduation Year:</p>
+                <input class="input-item" type="datetime" name="graduation-year" title="Graduation">
+            </div>
+
+            <div>
+                <p class="input-label">Resume:</p>
+                <input class="input-item" type="file" name="resume" title="Resume">
+            </div>
+
+            <div>
+                <p class="input-label">Introduction Paragraph:</p>
+                <textarea class="input-item" name="answer" rows="10" cols="24" title="Introduction"></textarea>
+            </div>
+
+            <div class="center">
+                <input class="button" type="submit" value="Register">
+            </div>
+        </form>
+    </body>
+</html>

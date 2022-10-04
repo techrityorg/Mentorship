@@ -1,17 +1,49 @@
-Techrity Mentorship project - WEEK-4 Project -3
+# Techrity Mentorship Week-4: Project-3 - Form Website
 
-Mentor :- Siddhi 
-Mentee :- Yash Bawa 
+This is a solution to the Week-4: Project-3 of Techrity Frontend Development Mentorship. 
 
-This projects is built using :-
-Vanilla JS
-CSS
-HTML 
+## Table of contents
 
-Its Title is DETAIL FORM used to save the details of all type used for a graduating student . 
-There are Various ALerts when you try to go out of the way to submit details do try it out♦.
+- [Overview](#overview)
+  - [Title of the project](#title)
+  - [The content](#the-content)
+  - [Screenshots](#screenshots)
+  - [Link](#link)
+- [Built with](#built-with)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+   - [Name of Mentor](#mentor)
+   - [Mentee Name](#mentee)
 
-Here is the prototype of the project :-
+## Overview
+
+### Title
+Form Website
+
+### The content
+
+The form website that takes name, age, gender, degree, graduation year, resume, introduction paragraph as inputs from a person and also validates the inputs.
+
+### Screenshots
 ![image](https://user-images.githubusercontent.com/90853282/191493755-13fc1e5e-2c7f-4616-bc95-d77e5208957c.png)
 
-Do provide your valuable reviews , this project is open to all kinds of suggestions and improvment ☻.
+## Built with
+
+- HTML5 
+- CSS3
+- JavaScript
+
+
+## Author
+
+- Website - [ybash](http://ybash-portfolio-website.netlify.app/)
+- Linkedin - [Yash Bawa](https://www.linkedin.com/in/yash-bawa-45362121b/)
+- GitHub - [YashBawa](https://github.com/YashBawa)
+
+## Acknowledgments
+
+### Mentor
+- Siddhi Bhanushali - [siddhi-244](https://github.com/siddhi-244)
+
+### Mentee
+- Yash Bawa
