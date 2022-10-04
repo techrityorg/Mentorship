@@ -1,0 +1,41 @@
+.body {
+  width: 70vw;
+  margin: auto;
+  border: 1px black solid;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+i {
+  font-weight: bold;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+  color: rgb(71, 1, 60);
+  font-weight: bold;
+}
+.App {
+  background-color: rgb(130, 105, 163);
+  padding: 2rem;
+}
+.fr_cont {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 6rem;
+}
+.head1 {
+  text-decoration: underline;
+}
+.head3 {
+  width: max-content;
+}
+img {
+  width: 200px;
+  border-radius: 1rem;
+}
+.rest_all{
+    margin-left: 6rem; margin-right: 6rem
+}
+h1{
+    text-align: center;
+}
