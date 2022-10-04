@@ -25,6 +25,9 @@ The webiste consists of:
 - A Password Generator.
 
 ### Screenshots
+![image](https://user-images.githubusercontent.com/78131705/193798162-b661ef6f-3445-4c43-bc47-654271ab6b13.png)
+![image](https://user-images.githubusercontent.com/78131705/193798226-2eb1326f-fea2-485c-85e3-b6288f500689.png)
+
 
 ### Link
 - Solution URL: [github repo URL](https://github.com/srivastavaritik/techrity-)
