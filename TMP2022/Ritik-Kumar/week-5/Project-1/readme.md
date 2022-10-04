@@ -25,6 +25,9 @@ The webiste consists of:
 - A Tic Tac Toe Game
 
 ### Screenshots
+![image](https://user-images.githubusercontent.com/78131705/193797678-a84b3bd7-3ac0-4c14-8d6b-531f7c16ab5c.png)
+![image](https://user-images.githubusercontent.com/78131705/193797740-bd94ffab-4ad1-4d01-a87a-1d97446fa198.png)
+
 
 ### Link
 - Solution URL: [github repo URL](https://github.com/srivastavaritik/techrity-)
