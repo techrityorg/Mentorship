@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="carousel" >
+  <ol class="carouselmain">
+    <li id="carouselslide1"
+        tabindex="0"
+        class="carouselslide">
+
+
+      <div class="carouselsnap">
+        <a href="#carouselslide4"
+            class="prev">Go to last slide</a>
+        <a href="#carouselslide2"
+
+           class="next">Go to next slide</a>
+      </div>
+    </li>
+    <li id="carouselslide2"
+        tabindex="0"
+        class="carouselslide">
+      <div class="carouselsnap"></div>
+      <a href="#carouselslide1"
+         class="prev">Go to previous slide</a>
+      <a href="#carouselslide3"
+         class="next">Go to next slide</a>
+    </li>
+    <li id="carouselslide3"
+        tabindex="0"
+        class="carouselslide">
+      <div class="carouselsnap"></div>
+      <a href="#carouselslide2"
+         class="prev"> Go to previous slide
+        </a>
+      <a href="#carouselslide4"
+         class="next">Go to next slide</a>
+    </li>
+    <li id="carouselslide4"
+        tabindex="0"
+        class="carouselslide">
+      <div class="carouselsnap"></div>
+      <a href="#carouselslide3"
+         class="prev">    Go to previous slide</a>
+      <a href="#carouselslide1"
+         class="next">  Go to first slide</a>
+    </li>
+  </ol>
+  <aside class="carouselnavigation">
+    <ol class="carouselnavigation-list">
+      <li class="carouselnavigation-item">
+        <a     href="#carouselslide1"
+           class="carouselnavigation-button">Go to slide 1</a>
+      </li>
+      <li class="carouselnavigation-item">
+        <a href="#carouselslide2"
+           class="carouselnavigation-button">Go to slide 2</a>
+      </li>
+      <li class="carouselnavigation-item">
+        <a href="#carouselslide3"
+            class="carouselnavigation-button">Go to slide 3</a>
+      </li>
+      <li class="carouselnavigation-item">
+        <a href="#carouselslide4"
+           class="carouselnavigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
+</body>
+</html>
