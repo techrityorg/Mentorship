@@ -1,0 +1,57 @@
+body{
+    height: 100%;
+    background-color: rgb(37, 34, 34);
+}
+h1{
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 45px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:chartreuse;
+    border: 5px solid rgb(25, 33, 156);
+    border-radius: 15%;
+
+    
+}
+form{
+    border: 5px solid rgb(25, 33, 156);
+    align-content: center;
+}
+.all_content{
+    display: flex;
+    justify-content: space-around;
+    color:chartreuse;
+}
+input{
+    font-size: 18px;
+}
+p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    font-size: 15px;
+    background-color: rgb(122, 184, 30);
+    color:whitesmoke;
+}
+
+.footer{
+    margin-top: 80px;
+    font-weight: bold;
+    text-align: center;
+    color:chartreuse;
+}
+.btn {
+    border : 2px solid chartreuse;
+    background-color: chartreuse;
+    color : white;
+    width: 2cm;
+    text-align: center;
+    border-radius:5px;
+    font-size: larger;
+    margin-top: 2cm; 
+}
