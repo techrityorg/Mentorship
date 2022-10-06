@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Website</title>
+    <link rel="shortcut icon" type="image/x-icon" href="web_html_tag.jpg"/>
+    <script src="https://kit.fontawesome.com/5587893eae.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="Navbar flex justify-between " >
+      <h1 class="heading text-5xl text-blue-500 p-4 drop-shadow-2xl">Ybash</h1>
+      <ul class="navbar_items flex justify-center items-center gap-2 p-4" style="list-style: none">
+        <li><a href="index.html" class="text-xl font-semibold hover:underline text-blue-500 ">Home</a></li>
+
+        <li><a href="about.html" class="text-xl font-semibold hover:underline text-blue-500 ">About</a></li>
+
+        <li><a href="projects.html" class="text-xl font-semibold hover:underline text-blue-500">Projects</a></li>
+
+        <li><a href="contacts.html" class="text-xl font-semibold hover:underline text-blue-500">Contacts</a></li>
+
+        <li><a href="Experience.html" class="text-xl font-semibold hover:underline text-blue-500">Experience</a></li>
+      </ul>
+    </div>
+    <div class="photo_intro">
+      <div class="self" >
+        <div class="name_top">
+          <h2>Heyo !!</h2>
+          <p>I'm Yash Bawa</p>
+        </div>
+        <div class="name_data">
+          <p id="self_taught">A self-Taught Developer</p>
+          <!-- <br /> -->
+          <p id="self_skills">Want to Know more about me, get in Touch . </p>
+        </div>
+        <div class="transform h-10 w-25 transition duration-500 hover:scale-10 hover:bg-green-200/75 mt-2 p-2 flex justify-center">
+            <button><span><a href="Contacts.html">Let's Talk ➤</a></span></button>
+        </div>
+      </div>
+      <div class="yash_photo">
+        <img class="ybashpic" src="yash_photo.jpeg" alt="yash-photo">
+        <!-- yet to be decided -->
+        <!-- <img class="yash_photobg" src="yash_bg.png" alt="bg-image"> -->
+      </div>
+    </div>
+    <div class="about_me">
+        <a id="abt" href="about.html">About Me</a>
+        <div class="about" style="gap:2cm">
+            <div class="animation">
+                <!-- // add a telivison kind of thing to make the video look realist  -->
+                <video  loop>
+                    <source src="react_animation.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="description">
+                <p class="para">
+                    I'm Young Geek following my passion to code .
+                    <br>
+                    Coding is a very Interesting and deep field , I would like to touch every embedded surface.
+                    <br>
+                    Making things work and solving real word problems using my skills .
+                    <br>
+                    “Make it work, make it right, make it fast.” 
+                    <br> 
+                    – Kent Beck  
+                </p>
+                <div>
+                    <img class="thts" src="thinking_bulb.webp" alt="thinking_bulb">
+                    <button id="about" ><a href="about.html">Know more➜</a></button>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <div class="skills">
+        <div class="skills_header">
+            <h1>Skills</h1>
+            <p>These are the various Languages and frameworks  :-</p>
+        </div>
+        <div class="skills_content_header">
+            <a class="social-icon">
+                <i id="html" class="fa-brands fa-html5"></i>
+                <i id="css" class="fab fa-css3"></i>
+                <i id="js" class="fab fa-js"></i>
+                <i id="react" class="fa-brands fa-react"></i>
+                <i id="java" class="fa-brands fa-java"></i>
+                <i id="c" class="fa-solid fa-c"></i>
+                <i id="git" class="fa-brands fa-git-alt"></i>
+                <i class="fa-brands fa-square-github"></i>
+
+            </a>
+        </div>
+        <!-- <div class="skill_bar">
+            <div class="front_end">
+                <div class ="bar html/css">
+                    90%
+                </div>
+                <div class="bar js">
+                    70%
+                </div class="bar react">
+                    65%
+                </div>
+            </div>
+            <div class="languages">
+                <div class ="bar cpp">
+                    80%
+                </div>
+                <div class="bar python">
+                    80%
+                </div class="bar C">
+                    80%
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <div class="footer">
+        <div class="footer_top">
+                <div class="fav_icon">
+                    <a style="color:blue" href="https://www.linkedin.com/in/yash-bawa-45362121b/" class="social-icon" style="margin-right :3%">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div >
+                <div class="fav_icon">
+                    <a style="color:black" href="https://github.com/YashBawa" class="social-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <div class="fav_icon">
+                    <a style="color:rgb(35, 158, 206)" href="https://twitter.com/_ybash_" class="social-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        <div class="font-medium display:flex justify-center text-center text-blue-500 ">
+            <p>
+                All Rights Reserved, © 2022 Yash Bawa.
+            </p>
+        </div>
+    </div>
+
+
+  </body>
+</html>

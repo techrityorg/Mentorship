@@ -1,0 +1,32 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, blue, royalblue, black);
+}
+.container {
+  display: flex;
+  width: max-content;
+  margin: 5rem auto;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, blue, royalblue, black);    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: ;
+}
+#age{
+    width: max-content;
+    margin: auto;
+    font-size: x-large;
+    font-weight: bold;
+}
+.btn{
+    width: max-content;
+    padding: .5rem;
+    margin: auto;
+}
+input{
+    width: 100%;
+}
