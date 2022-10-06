@@ -1,0 +1,43 @@
+* {
+  background-color: rgb(39, 42, 54);
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.App {
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: aqua;
+}
+a h2 {
+  text-decoration: none;
+  color: aqua;
+}
+a:hover, a h2:hover {
+  text-decoration: none;
+  color: rgb(130, 172, 172);
+}
+i {
+  font-weight: bold;
+  font-size: 12px;
+}
+.head1 {
+  padding: 0.5rem;
+  border: 1px rgb(25, 77, 175) solid;
+  width: max-content;
+  font-size: 2.5rem;
+}
+img {
+  width: 200px;
+}
+.achievements{
+  margin: 0 6rem;
+}
+.contact{
+  text-align: center;
+}

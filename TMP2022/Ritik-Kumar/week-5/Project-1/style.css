@@ -1,0 +1,46 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   background-color: black ;
+}
+
+h1 {
+    color: rgb(179 135 70);
+}
+
+hr {
+    width: 500px;
+    height: 3px;
+    background-color: rgb(161 101 0);
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 147px;
+    height: 147px;
+    font-size: 150px;
+    color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-line {
+    border-bottom: 3px solid rgb(203 160 15);
+}
+
+.vertical-line {
+    border-right: 3px solid rgb(157 146 3);
+}
+
+.winner {
+    background-color: rgb(171 6 6 / 86%);
+    color: rgb(0 0 0);
+}
