@@ -1,5 +1,5 @@
 
-# Techrity Week 2 - Project 2: Create a Table which show 15 tags of HTML
+# Techrity Week 2 - Project 3: Create a Table which show 15 tags of HTML
 This is the Third Project of Week 2 which is with pure HTML only.
 
 # Content
