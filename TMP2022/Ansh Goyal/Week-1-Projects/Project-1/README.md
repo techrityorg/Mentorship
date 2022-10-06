@@ -24,7 +24,7 @@ It contains a bubble sort algorithm which is pushed to this repository using the
 
 ### Link
 
-- Solution URL: [github repo URL](https://github.com/AKD-01/techrity/tree/Anjali_Kumari_Dubey/TMP2022/ANJALI_KUMARI_DUBEY/week-2/Project-1)
+- Solution URL: [github repo URL](https://github.com/anshgoyalevil/Mentorship/tree/main/TMP2022/Ansh%20Goyal/Week-1-Projects/Project-1)
 
 ## Author
 
