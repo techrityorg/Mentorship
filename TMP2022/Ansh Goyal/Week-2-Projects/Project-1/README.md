@@ -40,7 +40,6 @@ Biodata contains:
 ## Built with
 
 - HTML5 
-- CSS3
 
 ## Author
 
