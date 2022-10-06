@@ -1,12 +1,60 @@
-# School Multipage Website
+# Techrity Mentorship Week-3: Project-4 - School Website
 
-This is a multipage school website made with HTML, CSS.
+This is a solution to the Week-3: Project-4 of Techrity Frontend Development Mentorship. 
 
-The Tailwind CSS framework is used to give it a beautiful UI.
+## Table of contents
 
-Here are some screenshots of the website.
+- [Overview](#overview)
+  - [Title of the project](#title)
+  - [The contents](#the-contents)
+  - [Screenshots](#screenshots)
+  - [Link](#link)
+- [Built with](#built-with)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+   - [Name of Mentor](#mentor)
+   - [Mentee Name](#mentee)
 
-![a](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-2-Projects/Project-4/view/a.PNG)
-![b](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-2-Projects/Project-4/view/b.PNG)
-![c](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-2-Projects/Project-4/view/c.PNG)
-![d](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-2-Projects/Project-4/view/d.PNG)
+## Overview
+
+### Title
+School Website
+
+### The contents
+
+The School Website contains:
+
+- Home Page
+- About Page
+- Toppers Details Page
+- Contact us Page
+
+### Screenshots
+
+![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-2-Projects/Project-4/view/a.PNG)
+![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-2-Projects/Project-4/view/b.PNG)
+![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-2-Projects/Project-4/view/c.PNG)
+![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-2-Projects/Project-4/view/d.PNG)
+
+### Link
+
+- Solution URL: [github repo URL](https://github.com/anshgoyalevil/Mentorship/tree/main/TMP2022/Ansh%20Goyal/Week-2-Projects/Project-4)
+
+## Built with
+
+- HTML5 
+- Tailwind CSS
+
+## Author
+
+- Website - [HackTechHub](https://www.hacktechhub.com/)
+- Linkedin - [Ansh Goyal](https://www.linkedin.com/in/thisisanshg)
+- GitHub - [anshgoyalevil](https://github.com/anshgoyalevil)
+
+## Acknowledgments
+
+### Mentor
+- Siddhi Bhanushali - [siddhi-244](https://github.com/siddhi-244)
+
+### Mentee
+- Ansh Goyal 
