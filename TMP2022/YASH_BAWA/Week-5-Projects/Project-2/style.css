@@ -60,7 +60,7 @@ header input:focus {
     margin-bottom: 5px;
   }
   
-  .location .date {
+  #date {
     color: rgb(11, 10, 10);
     font-size: 16px;
     font-weight:900;

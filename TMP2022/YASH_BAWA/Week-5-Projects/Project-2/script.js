@@ -28,7 +28,7 @@ function displayResults(weather)
     city.innerText = `${weather.name},${weather.sys.country}`;
     // console.log(weather);
     let now = new Date();
-    let date = document.querySelector ('.location .city');
+    let date = document.getElementById('date');
     date.innerHTML = dateBuilder(now);
     
     let temp = document.querySelector(".current .temp");

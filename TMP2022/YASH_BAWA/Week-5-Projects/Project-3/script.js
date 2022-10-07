@@ -1,7 +1,7 @@
 function password_genrator () {
-    var pass_len = 12;
+    var pass_len = 8;
     var password = "";
-    var char = "1234567890-=qwertyuiopasdfghjklzxcvbnm!@#$%^&*()_+";
+    var char = "123456789@#$%^&*qwertyuiopasdfghjklzxcvbnm";
     for (var i=0;i<=pass_len;i++)
     {
         var random_number = Math.floor (Math.random()*char.length);
