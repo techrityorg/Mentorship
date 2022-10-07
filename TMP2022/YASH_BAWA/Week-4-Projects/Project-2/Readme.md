@@ -1,15 +1,48 @@
-This is Week-4-project Project-1  under the Mentorship program by Techrity 
-Mentor :- Siddhi 
-Mentee :- Yash Bawa 
+# Techrity Mentorship Week-4: Project-2 - Calculator
 
-This projects is built using :-
-Vanilla JS
-CSS
-HTML
+This is a solution to the Week-4: Project-2 of Techrity Frontend Development Mentorship. 
 
-Its title as CALCULATOR which performs all basic Arithmetic operations . 
+## Table of contents
 
-Here is the protoype of the frontend of the project 
+- [Overview](#overview)
+  - [Title of the project](#title)
+  - [The content](#the-content)
+  - [Screenshots](#screenshots)
+  - [Link](#link)
+- [Built with](#built-with)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+   - [Name of Mentor](#mentor)
+   - [Mentee Name](#mentee)
+
+## Overview
+
+### Title
+Calculator
+
+### The content
+
+The calculator can perform simple mathematical operations like addition, subtraction, multiplication, and division.
+
+### Screenshots
 ![image](https://user-images.githubusercontent.com/90853282/191492861-8d8d5f90-3cb5-4bbe-8f76-561a0e58ac29.png)
 
-Do provide your valuable reviews , this project is open to all kinds of suggestions and improvment ☻.
+## Built with
+
+- HTML5 
+- CSS3
+- JavaScript
+
+## Author
+
+- Website - [ybash](http://ybash-portfolio-website.netlify.app/)
+- Linkedin - [Yash Bawa](https://www.linkedin.com/in/yash-bawa-45362121b/)
+- GitHub - [YashBawa](https://github.com/YashBawa)
+
+## Acknowledgments
+
+### Mentor
+- Siddhi Bhanushali - [siddhi-244](https://github.com/siddhi-244)
+
+### Mentee
+- Yash Bawa
