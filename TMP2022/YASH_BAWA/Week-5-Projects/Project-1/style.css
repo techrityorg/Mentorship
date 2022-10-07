@@ -1,80 +1,47 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body{
+    background-color: rgb(235, 200, 137);
 }
-.background {
-    background-image: linear-gradient(to bottom , rgb(28, 30, 29) , rgba(29, 28, 29, 0.76));
-    background-image: cover;
-    height: 100vh;
-    padding: 1px;
-}
-h1{
-    color:aquamarine;
-}
-.tittle {
-    color:aliceblue;
-    text-align: center;
-    font-size:40px;
-    margin-top: 10%;
-}
-.display {
-    color:white;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-.hide{
-    display: none;
-}
-.container{
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows:33% 33% 33% ;
-    max-width: 300px;
-}
-.tittle{
-    border: 1px solid white;
-    min-height: 100px;
-    min-width:100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cell {
+    width: 75px;
+    height: 75px;
+    border:3px solid;
+    margin: 1px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px pink;
     font-size: 50px;
     cursor: pointer;
 }
-.playerX{
-    color:greenyellow;
+h1{
+    color:rgb(37, 162, 120);
+    text-decoration:underline;
+
 }
-.playero{
-    color:blue;
+#statusText{
+    color: rgb(37, 162, 120);
 }
-.controls{
+#gameContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1em;
+    padding:50px;
+    font-size: xx-large;
+    font-family: "Permanent Marker ",cursive;
+    text-align: center;
+    background-color: rgb(235, 200, 137);
 }
-#reset{
-    background-color: blue;
-    color:white;
-    padding: 8px;
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3 , auto);
+    width:225px;
+    margin: auto;
+}
+button{
+    background-color: aquamarine;
+    border: 2px solid aquamarine;
     border-radius: 8px;
-    border: none;
-    font-size: 20px;
-    margin-left: 1em;
-    cursor:pointer;
+    font-size: 25px;
+    cursor: pointer;
+
 }
-footer{
-    color:wheat;
-    font-size: larger;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0px;
-    right: 44%;
-}
+

@@ -1,117 +1,97 @@
-window.addEventListener('DOMContentLoaded',() => {
-    const tiles = Array.from(document.querySelectorAll('.tittle'));
-    const playerDisplay = document.querySelector('.display-player');
-    const resetButton = document.querySelector("#reset");
-    const announcer = document.querySelector('.announcer');
+const cells = document.querySelectorAll(".cell");
+const statusText = document.querySelector("#statusText");
+const restartBtn = document.querySelector("#restartBtn");
 
-    let board = ['','','','','','','','',''];
-    let currentPlayer = 'X';
-    let isGameActive = true ;
-
-    const PLAYERX_WON = "PLAYERX_WON";
-    const PLAYERO_WON = "PLAYERO_WON";
-    const TIE = 'TIE';
-
-    const winningConditions =[
-        [0,1,2],
-        [3,4,5],
-        [6,7,8],
-        [0,3,6],
-        [1,4,7],
-        [2,5,8],
-        [0,4,8],
-        [2,4,6]
-    ];
-
-    function handleResultValidation(){
-        let roundWon = false ;
-        for (let i=0;i<=7;i++)
-        {
-            const winCondition = winningConditions[i];
-            const a = board[winCondition[0]];
-            const b = board[winCondition[1]];
-            const c = board[winCondition[2]];
-            if (a === '' || b === '' || c === '') {
-                continue;
-            }
-            if (a === b && b === c) {
-                roundWon = true;
-                break;
-            }
-        }
-        if (roundWon) {
-            announce(currentPlayer === 'X' ? PLAYERX_WON : PLAYERO_WON);
-            isGameActive = false;
-            return;
-        }
-        if (!board.includes(''))
-            announce(TIE);
-        }
-    const announce = (type) => {
-        switch(type){
-            case PLAYERO_WON:
-                announcer.innerHTML = 'Player <span class="playerO">O</span> Won';
-                break;
-            case PLAYERX_WON:
-                announcer.innerHTML = 'Player <span class="playerX">X</span> Won';
-                break;
-            case TIE:
-                announcer.innerText = 'Tie';
-        }
-        announcer.classList.remove('hide');
-    };
-
-    const isValidAction = (tile) => {
-        if (tile.innerText === 'X' || tile.innerText === 'O'){
-            return false;
-        }
-
-        return true;
-    };
-
-    const updateBoard =  (index) => {
-        board[index] = currentPlayer;
-    }
-
-    const changePlayer = () => {
-        playerDisplay.classList.remove(`player${currentPlayer}`);
-        currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
-        playerDisplay.innerText = currentPlayer;
-        playerDisplay.classList.add(`player${currentPlayer}`);
-    }
+const winConditions =[
+    [0,1,2],
+    [3,4,5],
+    [6,7,8],
+    [0,3,6],
+    [1,4,7],
+    [2,5,8],
+    [0,4,8],
+    [2,4,6]
+];
+let options = ["","","","","","","","",""];
+let currentPlayer="X";
+let running=false;
 
 
-    const userAction = (tile,index) => {
-        if (isValidAction(tile) && isGameActive){
-            tile.innerText = currentPlayer;
-            tile.classList.add(`player${currentPlayer}`);
-            updateBoard(index);
-            handleResultValidation();
-            changePlayer();
-        }
-    }
+intializeGame();
 
-    const resetBoard = () => 
+function intializeGame () 
+{
+    cells.forEach(cell => cell.addEventListener("click",cellClicked));
+    restartBtn.addEventListener("click",restartGame);
+    statusText.textContent=`${currentPlayer}'s turn `;
+    running=true;
+}
+function cellClicked () 
+{
+    // cellIndex variable carries the index of the clicked cell
+    const cellIndex = this.getAttribute("cellindex");
+
+    if (options[cellIndex]!= "" || !running)
     {
-        board = ['','','','','','','','',''];
-        isGameActive=true;
-        announcer.classList.add('hide');
-
-        if (currentPlayer == '0')
-        {
-            changePlayer();
-        }
-
-        tiles.forEach(tile => {
-            tile.innerHTML = '';
-            tile.classList.remove('playerX');
-            tile.classList.remove('playerO');
-        });
+        return;
     }
+    UpdateCell(this,cellIndex);
+    checkWinner();
 
-    tiles.forEach( (tile, index) => {
-        tile.addEventListener('click', () => userAction(tile, index));
-    });
+}
+function UpdateCell(cell,index)
+{
+    options[index]=currentPlayer;
+    cell.textContent=currentPlayer;
 
-    resetButton.addEventListener('click', resetBoard);
-})
+}
+function changePlayer()
+{
+    currentPlayer = (currentPlayer=='X')?"O":"X";
+    statusText.textContent=`${currentPlayer}'s turn`;
+
+}
+function checkWinner()
+{
+    let roundWon = false ;
+
+    for(let i=0;i<winConditions.length;i++)
+    {
+        const conditions = winConditions[i];
+        const cellA = options[conditions[0]];
+        const cellB = options[conditions[1]];
+        const cellC = options[conditions[2]];
+        
+        if (cellA == "" || cellB == "" || cellC == "")
+        {
+            continue;
+        }
+        if (cellA==cellB && cellB==cellC && cellC==cellA)
+        {
+            roundWon=true;
+            break;
+        }
+    } 
+    if (roundWon == true)
+    {
+        statusText.textContent=`${currentPlayer} wins!`;
+        running=false;
+    }
+    else if (!options.includes(""))
+    {
+        statusText.textContent=`Draw`;
+        running=false;
+    } 
+    else {
+        changePlayer();
+    }
+}
+function restartGame () 
+{
+    currentPlayer="X";
+    options = ["","","","","","","","",""];
+    statusText.textContent = `${currentPlayer}'s turn`;
+    cells.forEach(cell => cell.textContent = "");
+    running=true;
+
+}

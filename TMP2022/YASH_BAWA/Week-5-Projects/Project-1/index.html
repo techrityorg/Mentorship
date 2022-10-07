@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac toe</title>
-    <link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tic Tac toe</title>
+        <link rel="stylesheet" href="style.css" />
+        
+    </head>
+    <body>
+        <div id="gameContainer">
+          <h1>TIC TAC TOE</h1>
+          <div id="cellContainer">
+            <div cellIndex="0" class="cell" ></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+          </div>
+          <h2 id="statusText"></h2>
+          <button id="restartBtn">Restart</button>
+        </div>
+    </body>
     <script src="script.js"></script>
-</head>
-<body>
-    <main class="background">
+    <!-- <main class="background">
         <section class="tittle" style="border: none;">
             <h1>TIC TAC TOE</h1>
         </section>
@@ -35,7 +53,7 @@
         <footer>
             Made With ♥ by Yash Bawa
         </footer>
-    </main>
+    </main> -->
     <!-- footer  -->
-</body>
+    
 </html>
