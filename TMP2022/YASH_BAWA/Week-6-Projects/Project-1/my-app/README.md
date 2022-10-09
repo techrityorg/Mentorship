@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Techrity Mentorship Week-6: Project-1 - Form Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the Week-6: Project-1 of Techrity Frontend Development Mentorship. 
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [Title of the project](#title)
+  - [The content](#the-content)
+  - [Screenshots](#screenshots)
+  - [Link](#link)
+- [Built with](#built-with)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+   - [Name of Mentor](#mentor)
+   - [Mentee Name](#mentee)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Title
+Self-Intro Website 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The content
 
-### `npm test`
+This website is a self introduction built using React framework . The styling for this project is added in the second project of this week.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshots
+Reference 
+![image](https://user-images.githubusercontent.com/90853282/194777829-96f2e848-4a6c-4083-a141-38523d386442.png)
+![image](https://user-images.githubusercontent.com/90853282/194777835-080cb124-8a45-4baf-87e8-38617b2306c4.png)
+![image](https://user-images.githubusercontent.com/90853282/194777848-2d35ff07-9900-49c1-977d-5f93cca99c97.png)
+![image](https://user-images.githubusercontent.com/90853282/194777866-bfaa6aed-9a36-4c11-a25c-4613f04f0941.png)
+![image](https://user-images.githubusercontent.com/90853282/194777883-251198f0-4a1e-4d76-93c6-936bc77c7c92.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built with
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React JS 
+- Tailwind CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
 
-### `npm run eject`
+- Website - [ybash](http://ybash-portfolio-website.netlify.app/)
+- Linkedin - [Yash Bawa](https://www.linkedin.com/in/yash-bawa-45362121b/)
+- GitHub - [YashBawa](https://github.com/YashBawa)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Acknowledgments
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Mentor
+- Siddhi Bhanushali - [siddhi-244](https://github.com/siddhi-244)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Mentee
+- Yash Bawa
