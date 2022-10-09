@@ -1,3 +1,54 @@
+# Techrity Mentorship Week-5: Project-3 - Weather Website
+
+This is a solution to the Week-5: Project-3 of Techrity Frontend Development Mentorship. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [Title of the project](#title)
+  - [The content](#the-content)
+  - [Screenshots](#screenshots)
+  - [Link](#link)
+- [Built with](#built-with)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+   - [Name of Mentor](#mentor)
+   - [Mentee Name](#mentee)
+
+## Overview
+
+### Title
+Weather App
+
+### The content
+
+This website provides all the weather condition for all cities and their current cimatic condition.
+
+### Screenshots
+![image](https://user-images.githubusercontent.com/90853282/194778918-c3206766-3f81-4b10-8d2c-25dbd34c6ebc.png)
+![image](https://user-images.githubusercontent.com/90853282/194778930-aa883993-dbdd-4c8e-a895-67a5dc3a21c6.png)
+
+## Built with
+
+- React JS
+- Tailwind CSS
+
+
+## Author
+
+- Website - [ybash](http://ybash-portfolio-website.netlify.app/)
+- Linkedin - [Yash Bawa](https://www.linkedin.com/in/yash-bawa-45362121b/)
+- GitHub - [YashBawa](https://github.com/YashBawa)
+
+## Acknowledgments
+
+### Mentor
+- Siddhi Bhanushali - [siddhi-244](https://github.com/siddhi-244)
+
+### Mentee
+- Yash Bawa
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
