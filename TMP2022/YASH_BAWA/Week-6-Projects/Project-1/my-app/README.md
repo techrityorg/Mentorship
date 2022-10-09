@@ -36,7 +36,6 @@ Reference
 ## Built with
 
 - React JS 
-- Tailwind CSS
 
 ## Author
 
