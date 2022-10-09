@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    </head>
+
+    <body>
+        <h1>Registration Form</h1>
+        <form>
+
+            <div>
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="name" title="Name">
+            </div>
+<br>
+            <div>
+                <label for="age">Age:</label>
+                <input id="age" type="number" name="age" title="Age">
+            </div>
+
+<br>
+            <div>
+                <label for="degree">Degree:</label>
+                <input id="degree" type="text" name="degree" title="Degree">
+            </div>
+<br>
+            <div>
+                <label for="graduation-year">Graduation Year:</label>
+                <input id="graduation-year" type="datetime" name="graduation-year" title="Graduation">
+            </div>
+<br>
+            <div>
+                <label for="resume">Resume:</label>
+                <input id="resume" type="file" name="resume" title="Resume">
+            </div>
+<br>
+            <div>
+                <label for="intro">Introduction</label>
+                <br>
+                <textarea id="intro" name="answer" rows="10" cols="30" title="Introduction"></textarea>
+            </div>
+
+            <br>
+            <div>
+                <label for="gender">Gender:</label>
+                <input id="male" type="radio" name="male" value="male" title="Male">Male</input>
+                <input id="female" type="radio" name="female" value="female" title="Female">Female</input>
+                <input id="others" type="radio" name="others" value="others" title="Others">Others</input>
+            </div>
+
+<br>
+            <div>
+                <input type="checkbox" name="terms&conditions" value="accept" title="terms-check">I accept all terms and conditions</input>
+            </div>
+<br>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>
