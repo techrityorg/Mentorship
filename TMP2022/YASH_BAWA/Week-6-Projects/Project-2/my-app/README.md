@@ -22,7 +22,7 @@ Portfolio Website
 
 ### The content
 
-Portfolio Website contaning all details about experience and achievemnets, projects and various other information expressing all skills of mine as well.
+Portfolio Website contaning all details about experience and achievemnets, projects and various other information expressing all skills of mine as well.The site is responsive as well.
 
 ### Screenshots
 Landing Page
@@ -39,6 +39,10 @@ Contacts:
 Projects Tab:
 ![image](https://user-images.githubusercontent.com/90853282/194778248-0ef1b84a-8894-43f5-a150-4c9879163de1.png)
 ![image](https://user-images.githubusercontent.com/90853282/194778259-6a6b904f-fd0c-49d5-a4eb-a00e34c97838.png)
+
+Responsive:
+![image](https://user-images.githubusercontent.com/90853282/194778492-29942d58-c011-4118-aa35-5a4a3aeccb6e.png)
+![image](https://user-images.githubusercontent.com/90853282/194778500-ec9a49c0-d62b-40f7-b5d4-347175ebb6a2.png)
 
 
 ## Built with
