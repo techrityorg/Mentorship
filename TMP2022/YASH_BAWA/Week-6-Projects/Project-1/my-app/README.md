@@ -1,4 +1,4 @@
-# Techrity Mentorship Week-6: Project-1 - Form Website
+# Techrity Mentorship Week-6: Project-1 - Self_intro Website
 
 This is a solution to the Week-6: Project-1 of Techrity Frontend Development Mentorship. 
 
