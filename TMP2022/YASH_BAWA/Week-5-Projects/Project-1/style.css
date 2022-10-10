@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(235, 200, 137);
+}
+.cell {
+    width: 75px;
+    height: 75px;
+    border:3px solid;
+    margin: 1px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px pink;
+    font-size: 50px;
+    cursor: pointer;
+}
+h1{
+    color:rgb(37, 162, 120);
+    text-decoration:underline;
+
+}
+#statusText{
+    color: rgb(37, 162, 120);
+}
+#gameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+    font-size: xx-large;
+    font-family: "Permanent Marker ",cursive;
+    text-align: center;
+    background-color: rgb(235, 200, 137);
+}
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3 , auto);
+    width:225px;
+    margin: auto;
+}
+button{
+    background-color: aquamarine;
+    border: 2px solid aquamarine;
+    border-radius: 8px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
