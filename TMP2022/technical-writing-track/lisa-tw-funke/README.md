@@ -221,7 +221,7 @@ To add money by card:
 
 8. Tap **Next** then confirm the amount to add.
 
-[Click here](https://youtu.be/JlOzwqt4tsc) for a video on how to go about the process.
+[Watch a tutorial here](https://youtu.be/JlOzwqt4tsc)
 
 
 #### Other ways include:
@@ -262,7 +262,7 @@ You can put money away daily, weekly, monthly or as you spend on Kuda. Kuda thre
 10. Review your savings goal, then tap Launch Goal.
 11. Tap View Goals any time to check your savings progress.
 
-[Click here](https://youtu.be/XiVcCnQcENE) to watch a video on how to go about it.
+[Watch a tutorial here.](https://youtu.be/XiVcCnQcENE)
 
 
 #### **Flexible Savings Plan**
@@ -302,7 +302,7 @@ You can put money away daily, weekly, monthly or as you spend on Kuda. Kuda thre
 3. Tap **Spend+Save** then swipe the switch in the upper right corner of the Spend+Save screen to turn it on.
 4. Set a percentage to save when you spend.
 
-[Click Here](https://youtu.be/zyioNnQVTEc) to watch a video on how to go about it.
+[Watch a tutorial here.](https://youtu.be/zyioNnQVTEc)
 
 ![Save](https://downloads.intercomcdn.com/i/o/187580057/9c1db686353de54347dce3a0/K5.jpg)
 
@@ -379,7 +379,7 @@ To be eligible, you have to [upgrade your account](#verification), by providing 
 
 4. Go back to the website where you want to pay, paste your Pay ID then complete the payment.
 
-[Click Here](https://youtu.be/dx95T5lFTtE) to watch the video on how to go about it.
+[Watch a tutorial here.](https://youtu.be/dx95T5lFTtE)
 
 ### **Payment Links**
 
@@ -392,7 +392,7 @@ Use a Payment Link to send money to anyone who has a smartphone and they can cla
 5. Confirm your new payment link.
 6. Share the payment link.
 
-[Click here](https://youtu.be/FWpS5vOvK_M) to watch a video on how to go about it.
+[Watch a tutorial here.](https://youtu.be/FWpS5vOvK_M)
 
 
 ## **Budgets** <a name="budgets"></a>
@@ -496,4 +496,4 @@ After the person you referred has finished the referral process, you will have 2
 
 ## Conclusion <a name="conclusion"></a>
 
-Visit [this site] (https://help.kuda.com/en/) for further details and inquiries about any Kuda services, goods, and so forth. You can contact their customer service department via email at help@kudabank.com or by calling the Kuda Bank contact number 09032200350.
+Visit [this site](https://help.kuda.com/en/) for further details and inquiries about any Kuda services, goods, and so forth. You can contact their customer service department via email at help@kudabank.com or by calling the Kuda Bank contact number 09032200350.
