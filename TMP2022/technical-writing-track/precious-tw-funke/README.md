@@ -1,5 +1,30 @@
 # Kuda Bank User Guide For Android Users
 
+## **Table Of Content**
+  * [**Introduction**](#introduction)
+  * [**Set Up An Account**](#set-up-an-account)
+    + [**Open An Account**](#open-an-account)
+    + [**Verify Identity**](#verify-identity)
+    + [**Secure Your Account**](#secure-your-account)
+    + [**More About You**](#more-about-you)
+    + [**Existing Users**](#existing-users)
+  * [**Kuda Features**](#kuda-features)
+    + [**Kuda Spend**](#kuda-spend)
+      - [**Sending Money**](#sending-money)
+      - [**Sending Money With Bank Transfers**](#sending-money-with-bank-transfers)
+      - [**Send money without an account number**](#send-money-without-an-account-number)
+      - [**Pay online without a debit card**](#pay-online-without-a-debit-card)
+      - [**Receiving Money On Kuda**](#receiving-money-on-kuda)
+    + [**Kuda Save**](#kuda-save)
+      - [**Spend+Save**](#spendsave)
+      - [**Flexible**](#flexible)
+      - [**Fixed**](#fixed)
+    + [**Budget**](#budget)
+    + [**Borrow**](#borrow)
+    + [**Cards**](#cards)
+  * [**Getting Help**](#getting-help)
+
+## **Introduction**
 Nigeria's first mobile-only bank, [Kuda Bank](https://kuda.com/), was granted a license by the Central Bank of Nigeria (CBN) in 2019. Consequently, Kuda is only available online and has no physical locations. Babs Ogundeyi and Musty Mustapha founded Kuda Bank. This guide illustrates how to get started with the Kuda Bank App.
 
 We'll go over [opening a Kuda account](#open-an-account) and using the [Kuda's fundamental features](#kuda-features). Download your app on the [Google Playstore](https://play.google.com/store/apps/details?id=com.kudabank.app&hl=en&gl=US) store for android devices and Let's get started.
