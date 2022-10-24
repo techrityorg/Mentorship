@@ -30,8 +30,8 @@ Biodata contains:
 
 ### Screenshots
 
-![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-2-Projects/Project-1/w2p1s1.PNG)
-![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-2-Projects/Project-1/w2p1s2.PNG)
+![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/frontend-dev-track/anshgoyal-project-fe-siddhi/Week-2-Projects/Project-1/w2p1s1.PNG)
+![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/frontend-dev-track/anshgoyal-project-fe-siddhi/Week-2-Projects/Project-1/w2p1s2.PNG)
 
 ### Link
 
