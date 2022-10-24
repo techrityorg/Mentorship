@@ -26,11 +26,11 @@ The simple carousel is made using HTML and CSS.
 
 ### Screenshot
 
-![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-3-Projects/Project-3/slider-1.PNG)
+![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/frontend-dev-track/anshgoyal-project-fe-siddhi/Week-3-Projects/Project-3/slider-1.PNG)
 
 ### Link
 
-- Solution URL: [github repo URL](https://github.com/anshgoyalevil/Mentorship/tree/main/TMP2022/Ansh%20Goyal/Week-3-Projects/Project-3)
+- Solution URL: [github repo URL](https://github.com/anshgoyalevil/Mentorship/tree/main/TMP2022/frontend-dev-track/anshgoyal-project-fe-siddhi/Week-3-Projects/Project-3)
 
 ## Built with
 
