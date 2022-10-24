@@ -26,12 +26,12 @@ The form website that takes name, age, gender, degree, graduation year, resume, 
 
 ### Screenshots
 
-![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-4-Projects/Project-3/reg-v1.PNG)
-![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-4-Projects/Project-3/reg-v2.PNG)
+![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/frontend-dev-track/anshgoyal-project-fe-siddhi/Week-4-Projects/Project-3/reg-v1.PNG)
+![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/frontend-dev-track/anshgoyal-project-fe-siddhi/Week-4-Projects/Project-3/reg-v2.PNG)
 
 ### Link
 
-- Solution URL: [github repo URL](https://github.com/anshgoyalevil/Mentorship/tree/main/TMP2022/Ansh%20Goyal/Week-4-Projects/Project-3)
+- Solution URL: [github repo URL](https://github.com/anshgoyalevil/Mentorship/tree/main/TMP2022/frontend-dev-track/anshgoyal-project-fe-siddhi/Week-4-Projects/Project-3)
 
 ## Built with
 
