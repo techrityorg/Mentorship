@@ -26,11 +26,11 @@ The profile card contains a display picture with name, social media links of git
 
 ### Screenshot
 
-![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-3-Projects/Project-2/profile-card.PNG)
+![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/frontend-dev-track/anshgoyal-project-fe-siddhi/Week-3-Projects/Project-2/profile-card.PNG)
 
 ### Link
 
-- Solution URL: [github repo URL](https://github.com/anshgoyalevil/Mentorship/tree/main/TMP2022/Ansh%20Goyal/Week-3-Projects/Project-2)
+- Solution URL: [github repo URL](https://github.com/anshgoyalevil/Mentorship/tree/main/TMP2022/frontend-dev-track/anshgoyal-project-fe-siddhi/Week-3-Projects/Project-2)
 
 ## Built with
 
