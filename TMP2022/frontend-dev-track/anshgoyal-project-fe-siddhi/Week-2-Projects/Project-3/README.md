@@ -26,11 +26,11 @@ The table contains 16 HTML Tags along with its types i.e. Inline Tag or Block Ta
 
 ### Screenshot
 
-![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/Ansh%20Goyal/Week-2-Projects/Project-3/w2p3s1.PNG)
+![image](https://github.com/anshgoyalevil/Mentorship/blob/main/TMP2022/frontend-dev-track/anshgoyal-project-fe-siddhi/Week-2-Projects/Project-3/w2p3s1.PNG)
 
 ### Link
 
-- Solution URL: [github repo URL](https://github.com/anshgoyalevil/Mentorship/tree/main/TMP2022/Ansh%20Goyal/Week-2-Projects/Project-3)
+- Solution URL: [github repo URL](https://github.com/anshgoyalevil/Mentorship/tree/main/TMP2022/frontend-dev-track/anshgoyal-project-fe-siddhi/Week-2-Projects/Project-3)
 
 ## Built with
 
