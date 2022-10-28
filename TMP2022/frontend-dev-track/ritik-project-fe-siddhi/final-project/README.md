@@ -27,6 +27,7 @@ The website showcases all the projects which I made during the techrity frontend
 
 ### Screenshots
 
+![image](https://user-images.githubusercontent.com/78131705/198638965-3bfff31b-f895-4660-959c-8a3ca1fa0107.png)
 
 
 ### Link
