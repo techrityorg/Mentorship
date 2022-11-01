@@ -1,7 +1,5 @@
 # Techrity Mentorship: Project-1 - Huddle Landing Page
 
-This is a solution to the Week-6: Project-1 of Techrity Frontend Development Mentorship.
-
 ## Table of contents
 
 - [Techrity Mentorship: Project-1 - Huddle Landing Page](#techrity-mentorship-project-1---huddle-landing-page)
@@ -20,7 +18,7 @@ This is a solution to the Week-6: Project-1 of Techrity Frontend Development Men
 ### Huddle Landing Page
 
 ### Screenshots
-![screenshoot]('./../design/desktop-design.jpg)
+![screenshot]('./../design/desktop-design.jpg)
 
 ### Links
 Live Url - [click here](https://heisdalu.github.io/techrity-project/)
