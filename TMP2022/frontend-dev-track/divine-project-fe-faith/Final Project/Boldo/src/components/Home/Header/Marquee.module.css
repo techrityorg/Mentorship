@@ -1,0 +1,29 @@
+.boxContainer {
+  opacity: 0;
+}
+
+.visible{
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.headerMarquee {
+  display: flex;
+  margin-top: 1.5rem;
+  position: relative;
+}
+
+.element {
+  height: 32px;
+  margin: 1rem 2rem;
+}
+
+.element img {
+  height: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+.element {
+  height: 40px;
+}
+}

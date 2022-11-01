@@ -1,0 +1,158 @@
+.FooterMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 1rem;
+  background-color: var(--dark-blue);
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.FooterMain::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  height: 80vmin;
+  width: 80vmin;
+  transform: translateX(30%) translateY(-70%);
+  background-color: var(--half-circle);
+  z-index: 1;
+}
+
+.title {
+  font-size: 2.1875rem;
+  font-weight: 400;
+  font-family: var(--main-font);
+  line-height: 54.6px;
+  text-align: center;
+  color: var(--white);
+  z-index: 2;
+}
+
+.footerBtn {
+  margin: 1.3rem 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.input,
+.btn {
+  padding: 20px 20px 20px 32px;
+  border-radius: 100px;
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+  color: #333333;
+  z-index: 2;
+}
+
+.input {
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  outline: none;
+  color: #333333;
+  font-family: var(--sub-font);
+}
+
+.input::placeholder {
+  color: #333333;
+}
+
+.btn {
+  background-color: var(--green);
+  border: 1px solid var(--green);
+  border-radius: 56px;
+  color: var(--dark-blue);
+  font-weight: 700;
+}
+
+.error {
+  color: red;
+  line-height: 1.3rem;
+  font-weight: 700;
+  font-family: var(--sub-font);
+  text-align: center;
+  padding-top: 5px;
+}
+
+
+@media screen and (min-width:768px) {
+  .FooterMain {
+    padding: 2rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    line-height: 74.88px;
+  }
+
+  .input {
+    margin-bottom: 1rem;
+  }
+
+  .FooterMain::after {
+    width: 60vmin;
+    height: 55vmin;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  .title {
+    max-width: 700px;
+  }
+
+  .FooterMain {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .footerBtn {
+    max-width: 700px;
+    width: 80%;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+  }
+
+  .input {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    grid-area: 1/1/1/2;
+  
+  }
+  .btn {
+    width: 100%;
+  }
+
+  .error {
+    grid-area: 2/1/2/-1;
+    display: none;
+  }
+
+  .FooterMain::after  {
+    height: 120vmin;
+    width: 130vmin;
+    transform: translateX(30%) translateY(-75%);
+
+  }
+  
+}
+
+@media screen and (min-width: 1500px) {
+  .FooterMain::after  {
+    max-height: 50vmin;
+    max-width: 60vmin;
+  }
+}

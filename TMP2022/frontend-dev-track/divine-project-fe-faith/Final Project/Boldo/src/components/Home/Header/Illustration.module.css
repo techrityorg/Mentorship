@@ -1,0 +1,42 @@
+.illustration {
+    width: 100%;
+    z-index: 11;
+    opacity: 0;
+}
+
+.illustrationChange {
+    opacity: 1;
+    transition: all 1.5s;
+}
+
+.illustration img {
+    width: 100%;
+    z-index: 111;
+}
+
+@media screen and (min-width: 768px) {
+    .illustration {
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .illustration {
+        position: relative;
+        z-index: 10;
+        overflow: hidden;
+    }
+
+    .illustration::after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        z-index: -1;
+        background-color: var(--dark-blue);
+        border-radius:15px ;
+
+    }
+}

@@ -1,0 +1,80 @@
+.homeBox {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  background-color: white;
+  z-index: 55;
+  overflow: hidden;
+}
+
+.home {
+  height: 150px;
+  width: 150px;
+  background-color: var(--green);
+  border-radius: 54% 45% 10% 10% / 54% 54% 10% 10%;
+  overflow: hidden;
+  position: relative;
+  z-index: 23;
+}
+
+.disabledHome {
+  display: none;
+}
+
+.homeAnimate {
+    animation-name: mobileAnimate;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.counter {
+  background-color: var(--dark-blue);
+  height: 0%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  transition: all 1s;
+}
+
+@keyframes mobileAnimate {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(12);
+  }
+}
+
+.valuePercent {
+  font-size: 1.2rem;
+  font-family: var(--main-font);
+  margin-top: 10px;
+}
+
+.title {
+  margin-top: 13px;
+  font-family: var(--main-font);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  color: var(--dark-blue);
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    animation-duration: 1s;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .homeBox {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

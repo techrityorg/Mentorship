@@ -1,0 +1,143 @@
+.list {
+  margin: 2rem 0;
+  cursor: pointer;
+  overflow: hidden;
+  padding-bottom: 5px;
+  /* border-bottom: 1px solid #c4c4c4; */
+}
+
+.listItem {
+  line-height: 25.6px;
+  font-size: 1rem;
+  font-family: var(--main-font);
+  font-weight: 400;
+  display: flex;
+  place-items: center;
+  transition: height 2s;
+}
+
+.boxAnimate {
+  position: relative;
+}
+
+.boxAnimate::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #c4c4c4;
+  position: absolute;
+  bottom: 0;
+  animation-name: widthAnimate;
+  animation-duration: 2s;
+  animation-delay: calc(1s * var(--value));
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+
+
+@keyframes widthAnimate {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.arrowDown {
+  margin-left: auto;
+  height: 28px;
+  width: 28px;
+  transition: transform 0.7s;
+  opacity: 0;
+}
+
+.arrowAnimate {
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+
+.inverted {
+  transform: rotate(-180deg);
+  transition: transform 0.7s!important;
+}
+
+.listDropDown {
+  margin-top: 1rem;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: all 0.7s;
+  will-change: height;
+  font-size: 0.8rem;
+  line-height: 24.5px;
+  font-family: var(--sub-font);
+  color: var(--black);
+  font-weight: 400;
+  margin-top: -10px;
+  padding-top: 1rem;
+}
+
+.hiddenList {
+  margin-top: 0;
+  max-height: 70px;
+  opacity: 1;
+  transition: all 0.7s;
+}
+
+.header span span {
+  transform: translateY(105%) rotate(0);
+}
+
+.headerAnimate span span {
+  will-change: transform;
+  animation-name: headerAnimateText;
+  animation-duration: 1s;
+  animation-delay: calc((0.03s * var(--word-index)) + (1s * var(--value)));
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes headerAnimateText {
+  0% {
+    transform: translateY(105%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.listAnimate {
+  will-change: transform;
+  animation-name: animateText;
+  animation-duration: 1s;
+  animation-delay: calc(
+    (0.03s * var(--word-index)) + (0.5s * var(--line-index))
+  );
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@media screen and (min-width: 768px) {
+  .list {
+    margin: 0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .arrowDown {
+    align-self: flex-start;
+  }
+
+  .listItem {
+    line-height: 32px;
+    font-size: 1.25rem;
+  }
+
+  .hiddenList {
+    line-height: 28px;
+    font-size: 1rem;
+    max-width: 380px;
+  }
+}

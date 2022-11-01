@@ -36,6 +36,8 @@ Users should be able to:
 ## Author
 
 - Twitter - [@Dhevine_0X](https://www.twitter.com/Dhevine_0X)
+- - GitHub - [Heisdalu](https://github.com/Heisdalu)
+
 
 ### Mentor
 

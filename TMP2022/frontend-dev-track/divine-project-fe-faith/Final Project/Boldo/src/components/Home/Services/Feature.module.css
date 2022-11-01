@@ -1,0 +1,29 @@
+.feature {
+  margin: 1rem 0;
+}
+
+.featureCard {
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .feature {
+    display: flex;
+    justify-content: center;
+  }
+
+  .feature > * + * {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .feature {
+    margin: 1.5rem 0;
+  }
+
+  .feature > * + * {
+    margin-left: 0;
+    margin-left: 5rem;
+  }
+}

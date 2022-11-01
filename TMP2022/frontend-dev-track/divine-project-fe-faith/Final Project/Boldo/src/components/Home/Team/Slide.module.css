@@ -1,0 +1,41 @@
+.slideBox {
+  padding: 2.5rem;
+  background-color: var(--white);
+  border-radius: 16px;
+  margin: 0 15px;
+}
+
+.slideText {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 400;
+  font-family: var(--sub-font);
+}
+
+.slideDetail{
+    margin-top:1.5rem ;
+    padding: 1rem 0;
+    display: flex;
+}
+
+.pic{
+  margin-right: 1rem;
+}
+.slideInfo {
+  display: flex;
+  flex-direction: column;
+  }
+
+.name, .job {
+  font-size: 0.8rem;
+  font-family: var(--sub-font);
+  font-weight: 700;
+  line-height: 24.5px;
+  color: var(--dark-blue);
+}
+
+.job{
+  margin-top: auto;
+  font-weight: 400;
+}
+

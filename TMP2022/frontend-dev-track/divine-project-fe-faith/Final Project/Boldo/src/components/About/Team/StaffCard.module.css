@@ -1,0 +1,44 @@
+.staffCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 2rem 0;
+}
+
+.staffImage {
+  max-width: 270px;
+}
+
+.staffCard img {
+  width: 100%;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: var(--black);
+  margin: 1rem 0 5px 0;
+  font-weight: 400;
+  font-family: var(--main-font);
+}
+
+.job {
+  font-size: 1rem;
+  color: var(--gray);
+  font-weight: 400;
+  font-family: var(--sub-font);
+}
+
+@media screen and (min-width: 768px) {
+  .staffCard {
+    margin: 0rem 1.5rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .job {
+    font-size: 1.25rem;
+  }
+}

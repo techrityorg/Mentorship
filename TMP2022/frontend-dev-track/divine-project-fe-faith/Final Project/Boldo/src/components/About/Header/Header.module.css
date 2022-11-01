@@ -1,0 +1,119 @@
+.aboutHeaderWrapper {
+  background-color: var(--dark-blue);
+}
+
+.aboutHeaderMain {
+  padding: 1rem;
+}
+
+.aboutHeader {
+  color: var(--white);
+  text-align: center;
+  max-width: 450px;
+  margin: 2rem auto;
+}
+
+.title {
+  font-size: 2.1875rem;
+  font-weight: 400;
+  font-family: var(--main-font);
+  line-height: 54px;
+}
+
+.title span span {
+  transform: translateY(105%) rotate(7deg);
+}
+
+.titleChange span span {
+  will-change: transform;
+  animation-name: headerTitleAnimate;
+  animation-duration: 1s;
+  animation-delay: calc(
+    (0.03s * var(--word-index)) + (0.1s * var(--line-index))
+  );
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes headerTitleAnimate {
+  from {
+    transform: translateY(1005) rotate(7deg);
+  }
+  to {
+    transform: translateY(0%) rotate(0);
+  }
+}
+
+
+.content {
+  color: var(--light-gray);
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 24.5px;
+  font-family: var(--sub-font);
+}
+
+.content span span {
+  transform: translateY(105%) rotate(7deg);
+}
+
+.content span span {
+  will-change: transform;
+  animation-name: headerContentAnimate;
+  animation-duration: 1s;
+  animation-delay: calc(1s + (0.3s * var(--line-index)));
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes headerContentAnimate {
+  from {
+    transform: translateY(105%) rotate(7deg);
+  }
+  to {
+    transform: translateY(0%) rotate(0);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .aboutHeaderMain {
+    padding: 1.5rem 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .aboutHeader {
+    max-width: 600px;
+  }
+
+  .title {
+    font-size: 4rem;
+    line-height: 80px;
+  }
+  .content {
+    font-size: 1rem;
+    line-height: 28px;
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .aboutHeaderMain {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+
+  .aboutHeaderMain {
+    padding: 2rem 5rem;
+    padding-bottom: 7rem;
+  }
+
+  .aboutHeader {
+    max-width: 800px;
+  }
+
+  .content {
+    max-width: 600px;
+    margin: 1rem auto;
+  }
+}

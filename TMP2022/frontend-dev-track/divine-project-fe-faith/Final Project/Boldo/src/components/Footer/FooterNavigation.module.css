@@ -1,0 +1,114 @@
+.FooterNavigation {
+  margin: 2rem 0;
+  padding: 0 0.5rem;
+}
+
+
+.aboutText {
+  padding: 1.5rem 0 1rem 0;
+  line-height: 24.5px;
+  font-family: var(--sub-font);
+  color: var(--gray);
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.navigation {
+  margin: 1.5rem 0;
+}
+
+.navBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1rem 0;
+}
+
+.navHeader {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  color: var(--black);
+  font-weight: 700;
+  font-family: var(--sub-font);
+}
+
+.navBox a {
+  margin: 0.5rem 0;
+  margin-top: 1rem;
+  color: var(--gray);
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-family: var(--sub-font);
+  text-decoration: none;
+  /* border:1px solid; */
+}
+
+.privacy {
+  font-size: 0.8rem;
+  color: var(--gray);
+  font-family: var(--sub-font);
+}
+
+.hiringTag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: var(--sub-font);
+  padding: 0.5rem 1rem;
+  border-radius: 100px;
+  color: var(--dark-blue);
+  background-color: var(--green);
+  margin-left: 5px;
+}
+
+
+@media screen and (min-width:768px) {
+  .FooterNavigation {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    margin-top: 4rem;
+  }
+
+  .aboutBox a {
+    height: auto;
+  }
+
+  .navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+  }
+
+  .navBox {
+    margin: 0;
+  }
+
+  .aboutText {
+    font-size: 1rem;
+    line-height: 28px;
+    max-width: 320px;
+    padding-right: 2rem;
+  }
+
+  .navHeader{
+    font-size: 1.25rem;
+  }
+
+  .navBox a {
+    margin: 1rem 0 2rem 0;
+  }
+
+  .careerTag{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+  .hiringTag {
+    margin-left: 0.5rem;
+    display: block;
+  }
+
+  .privacy {
+    font-size: 1rem;
+  }
+
+}
