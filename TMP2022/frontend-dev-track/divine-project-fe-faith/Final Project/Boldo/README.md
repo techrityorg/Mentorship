@@ -1,10 +1,10 @@
-# Boldo Template
+# Techrity Mentorship: Final Project - Boldo Template
 
 Boldo Multi-Page Template Website.
 
 ## Table of contents
 
-- [Boldo Template](#boldo-template)
+- [Techrity Mentorship: Final Project - Boldo Template](#techrity-mentorship-final-project---boldo-template)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [Screenshot](#screenshot)
@@ -34,7 +34,6 @@ Boldo Multi-Page Template Website.
 - Mobile-first workflow
 - Swiper.js
 
-
 ### Installation
 
 - Clone repo into your drive
@@ -42,12 +41,10 @@ Boldo Multi-Page Template Website.
 - run npm install on the terminal
 - after installation of packages, run npm start
 
-
 ### Author
 
 - Twitter - [@Dhevine_0X](https://www.twitter.com/Dhevine_0X)
 - - GitHub - [Heisdalu](https://github.com/Heisdalu)
-
 
 ### Mentor
 
@@ -57,6 +54,6 @@ Boldo Multi-Page Template Website.
 
 - Divine Obi
 
-
 ### Acknowledgement
+
 - Edgar Allan designed it from the figma community.
