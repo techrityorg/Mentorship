@@ -1,3 +1,64 @@
+# Techrity Mentorship Final Project - Techrity Mentorship Projects
+
+This is a solution to the Final Project of Techrity Frontend Development Mentorship. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [Title of the project](#title)
+  - [The content](#the-content)
+  - [Screenshots](#screenshots)
+  - [Link](#link)
+- [Built with](#built-with)
+- [How to Run](#how-to-run)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+   - [Name of Mentor](#mentor)
+   - [Mentee Name](#mentee)
+
+## Overview
+
+### Title
+Techrity Mentorship Projects
+
+### The content
+
+This website showcases all the projects made during the techrity frontend development mentorship under the guidance of my mentor Siddhi Bhanushali. 
+This is Website is a Responsive React App, Each projects Image is clickable and opens at its specific github repository , for brief details. 
+The Footer contains the link to the Repository containing all the projects made during the mentorship. 
+
+### Screenshots
+![image](https://user-images.githubusercontent.com/90853282/199233421-aadce39b-f43e-4a91-9d36-d3b9d0d6c1d9.png)
+![image](https://user-images.githubusercontent.com/90853282/199233471-ee04b917-e701-4e51-8b49-7c8643a496ca.png)
+![image](https://user-images.githubusercontent.com/90853282/199233518-b1cbab1d-054b-4cff-9720-bdf045047f70.png)
+![image](https://user-images.githubusercontent.com/90853282/199233554-771d6815-749e-4ba9-9e97-f675fc2219aa.png)
+![image](https://user-images.githubusercontent.com/90853282/199233635-ee632fb0-c86e-4d26-b7bc-22b147baa5d6.png)
+
+
+## Built with
+
+- React JS
+- Tailwind CSS
+
+
+## Author
+
+- Website - [ybash](http://ybash-portfolio-website.netlify.app/)
+- Linkedin - [Yash Bawa](https://www.linkedin.com/in/yash-bawa-45362121b/)
+- GitHub - [YashBawa](https://github.com/YashBawa)
+
+## Acknowledgments
+
+### Mentor
+- Siddhi Bhanushali - [siddhi-244](https://github.com/siddhi-244)
+
+### Mentee
+- Yash Bawa
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
