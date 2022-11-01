@@ -9,6 +9,7 @@ This is a solution to the Week-6: Project-1 of Techrity Frontend Development Men
   - [Overview](#overview)
     - [Huddle Landing Page](#huddle-landing-page)
     - [Screenshots](#screenshots)
+    - [Links](#links)
   - [Built with](#built-with)
   - [Author](#author)
     - [Mentor](#mentor)
@@ -19,9 +20,10 @@ This is a solution to the Week-6: Project-1 of Techrity Frontend Development Men
 ### Huddle Landing Page
 
 ### Screenshots
-
-Reference
 ![screenshoot]('./../design/desktop-design.jpg)
+
+### Links
+Live Url - [click here](https://heisdalu.github.io/techrity-project/)
 
 ## Built with
 
