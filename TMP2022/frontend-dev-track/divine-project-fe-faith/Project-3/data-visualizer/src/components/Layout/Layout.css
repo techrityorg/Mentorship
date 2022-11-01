@@ -1,0 +1,39 @@
+.main-container {
+  margin: auto;
+  padding-top: 3rem;
+  display: grid;
+  grid-template-columns: 0.5fr 10fr;
+  grid-template-rows: 8fr;
+  place-items: center;
+  height: 500px;
+  max-width: 300px;
+  overflow-x: scroll;
+  position: relative;
+}
+
+ @media screen and (min-width: 500px) {
+  .main-container {
+    max-width: 500px;
+  }
+}
+ @media screen and (min-width: 360px) {
+  .main-container {
+    max-width: 360px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .main-container {
+    max-width: 800px;
+  }
+  .main-container {
+    grid-template-columns: 1fr 10fr;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-container {
+    max-width: 1200px;
+  }
+} 
+

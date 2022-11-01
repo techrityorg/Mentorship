@@ -1,0 +1,20 @@
+.horizontal-metrics{
+  grid-area: 2/2/2/-1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.horizontal-metrics div {
+  margin-left: 1rem;
+  width: 5vw;
+  text-align: center;
+  word-wrap: break-word;
+  writing-mode: tb-rl; 
+}
+
+@media screen and (min-width: 800px) {
+    .horizontal-metrics div {
+        writing-mode: lr;
+    }
+}

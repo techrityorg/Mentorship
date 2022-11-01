@@ -1,0 +1,23 @@
+.vertical_metrics {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.vertical_metrics div {
+  position: absolute;
+  bottom: 0;
+  writing-mode: vertical-lr;
+}
+
+.vertical_metrics div:first-child {
+  opacity: 0;
+}
+
+@media screen and (min-width: 800px){
+    .vertical_metrics div {
+        writing-mode: horizontal-tb;
+        width: 100%;
+        text-align: right;
+    }
+}
