@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <h1>Enter City name here:</h1>
+    <input type="text" id="city" />
+    <button id="btn">Submit</button>
+    <title>Temperature</title>
+    <p id="temp">waiting...</p>
+  </head>
+  <body></body>
+  <script>
+    const renderWeather = (data) => {
+      const temp = document.getElementById('temp');
+      console.log(data);
+      if (data.cod === '404' || data.cod === '400')
+        temp.innerHTML = 'City not found!';
+      else temp.innerHTML = data.main.temp;
+    };
+
+    // Javascript fetch request
+    const fetchWeather = async (city) => {
+      const key = '96941ab728aca2fde601358e7f439b64';
+      const response = await fetch(
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}`
+      );
+      const data = await response.json();
+      return renderWeather(data);
+    };
+
+    const start = () => {
+      const submitBtn = document.getElementById('btn');
+      submitBtn.addEventListener('click', () => {
+        const city = document.getElementById('city').value;
+        fetchWeather(city);
+      });
+    };
+
+    start();
+  </script>
+</html>
