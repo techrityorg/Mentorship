@@ -1,0 +1,19 @@
+.logo {
+  align-items: center;
+  display: flex;
+  width: 170px;
+  height: 100%;
+  text-decoration: none;
+}
+
+.logo img {
+  height: 34px;
+  width: 26px;
+}
+
+.logoText {
+  margin-left: 0.5rem;
+  font-size: 2.7rem;
+  font-weight: 700;
+  font-family: var(--main-font);
+}

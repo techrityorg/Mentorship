@@ -1,0 +1,92 @@
+.statsWrapper {
+  background-color: var(--dark-blue);
+}
+
+.statsMain {
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: var(--main-font);
+}
+
+.subTitle {
+  color: var(--light-gray);
+}
+
+.title {
+  font-size: 2.1875rem;
+  color: var(--white);
+  padding: 1rem 0;
+  font-weight: 400;
+  line-height: 54.6px;
+}
+
+.counter {
+  margin: 1rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 4rem;
+  color: var(--green);
+}
+
+.name {
+  color: var(--light-gray);
+}
+
+@media screen and (min-width: 768px) {
+  .statsMain {
+    padding: 3rem;
+    max-width: 600px;
+    margin:  0 auto;
+  }
+
+  .subTitle {
+    font-size: 1.25rem;
+  }
+
+  .title {
+    font-size: 3rem;
+    line-height: 72px;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: center;
+  }
+
+  .counter {
+    margin: 2rem 2.5rem;
+    padding: 1rem 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .statsWrapper {
+    margin: 0 auto;
+  }
+  
+  .statsMain {
+    max-width: 1800px;
+    padding: 4rem 0;
+  }
+
+  .title {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .counter {
+    margin: 1rem 3rem;
+    margin-bottom: 0;
+  }
+
+  .value {
+    font-size: 6rem;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,41 @@
+.st0 {
+  fill: var(--dark-blue);
+  height: 50px;
+}
+
+.waveBox {
+  position: absolute;
+  transform: translateX(-40%) translateY(-63%);
+  top: 0;
+}
+
+.one {
+  animation: lr 25s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.waveSpan {
+  display: block;
+  animation: tb 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+ 
+@keyframes tb {
+  from {
+    transform: scaleY(0.75) translateY(10px);
+  }
+  to {
+    transform: scaleY(1) translateY(0);
+  }
+}
+
+@keyframes lr {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-360px);
+  }
+}

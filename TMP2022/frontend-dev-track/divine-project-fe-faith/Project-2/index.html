@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | [Blogr]</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a class="navbar__brand" href="#">
+            <img src="./assets/images/logo.svg" alt="" />
+          </a>
+          <button class="navbar__toggler" type="button" aria-controls="navbarContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar__toggler-icon"></span>
+          </button>
+          <div id="navbarContent" data-mobile-menu-show="false">
+            <div class="menu" data-inclusive-menu="">
+              <button class="dropdown__toggle" data-inclusive-menu-opens="product_menu">
+                Product
+                <span aria-hidden="true"></span>
+              </button>
+              <div id="product_menu" class="dropdown__menu" data-inclusive-menu-from="left">
+                <button class="dropdown__item">Overview</button>
+                <button class="dropdown__item">Pricing</button>
+                <button class="dropdown__item">Marketplace</button>
+                <button class="dropdown__item">Features</button>
+                <button class="dropdown__item">Integrations</button>
+              </div>
+            </div>
+            <div class="menu" data-inclusive-menu="">
+              <button class="dropdown__toggle" data-inclusive-menu-opens="company_menu">
+                Company
+                <span aria-hidden="true"></span>
+              </button>
+              <div id="company_menu" class="dropdown__menu" data-inclusive-menu-from="left">
+                <button class="dropdown__item">About</button>
+                <button class="dropdown__item">Team</button>
+                <button class="dropdown__item">Blog</button>
+                <button class="dropdown__item">Careers</button>
+              </div>
+            </div>
+            <div class="menu" data-inclusive-menu="">
+              <button class="dropdown__toggle" data-inclusive-menu-opens="connect_menu">
+                Connect
+                <span aria-hidden="true"></span>
+              </button>
+              <div id="connect_menu" class="dropdown__menu" data-inclusive-menu-from="left">
+                <button class="dropdown__item">Contact</button>
+                <button class="dropdown__item">Newsletter</button>
+                <button class="dropdown__item">LinkedIn</button>
+              </div>
+            </div>
+            <div class="navbar__links">
+              <a class="nav__link login__link" href="#">Login</a>
+              <a class="btn btn__primary" href="#">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="cta text-center">
+        <div class="container">
+          <h1 class="cta__headline">A modern publishing platform</h1>
+          <p class="cta__lead">Grow your audience and build your online brand</p>
+          <div class="cta__actions">
+            <a class="btn btn__primary" href="#">Start for Free</a>
+            <a class="btn btn__secondary" href="#">Learn More</a>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="content" id="main">
+      <section class="intro">
+        <h2 class="intro__headline text-center">Designed for the future</h2>
+        <div class="intro__picture-mobile">
+          <img src="./assets/images/illustration-editor-mobile.svg" alt="" />
+        </div>
+        <div class="split">
+          <div class="intro__content">
+            <h3>Introducing an extensible editor</h3>
+            <p>
+              Blogr features an exceedingly intuitive interface which lets you
+              focus on one thing: creating content. The editor supports
+              management of multiple blogs and allows easy manipulation of
+              embeds such as images, videos, and Markdown. Extensibility with
+              plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+            <h3>Robust content management</h3>
+            <p>
+              Flexible content management enables users to easily move through
+              posts. Increase the usability of your blog by adding customized
+              categories, sections, format, or flow. With this functionality,
+              you’re in full control.
+            </p>
+          </div>
+          <div class="intro__picture-desktop">
+          </div>
+        </div>
+      </section>
+      <section class="infra">
+        <div class="split">
+          <div class="infra__picture">
+            <img src="./assets/images/illustration-phones.svg" alt="" />
+          </div>
+          <div class="infra__content">
+            <h3 class="infra__headline">State of the Art Infrastructure</h3>
+            <p class="infra__description">
+              With reliability and speed in mind, worldwide data centers
+              provide the backbone for ultra-fast connectivity. This ensures
+              your site will load instantly, no matter where your readers are,
+              keeping your site competitive.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="tooling">
+        <div class="tooling__picture-mobile">
+          <img src="./assets/images/illustration-laptop-mobile.svg" alt="" />
+        </div>
+        <div class="split">
+          <div class="tooling__picture-desktop">
+          </div>
+          <div class="tooling__content">
+            <h3>Free, open, simple</h3>
+            <p>
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as
+              code syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+            <h3>Powerful tooling</h3>
+            <p>
+              Batteries included. We built a simple and straightforward CLI
+              tool that makes customization and deployment a breeze, but
+              capable of producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="blogr-logo">
+          <img src="./assets/images/logo.svg" alt="" />
+        </div>
+        <section>
+          <h1>Product</h1>
+          <ul>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Integrations</a></li>
+          </ul>
+        </section>
+        <section>
+          <h1>Company</h1>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </section>
+        <section>
+          <h1>Connect</h1>
+          <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </section>
+      </div>
+    </footer>
+    <script src="./assets/js/menu.js"></script>
+    <script>
+      // Wire-up inclusive-menus-button for the individual menus.
+      const productMenu = document.querySelector('[data-inclusive-menu-opens="product_menu"]')
+      const productMenuButton = new MenuButton(productMenu)
+      const companyMenu = document.querySelector('[data-inclusive-menu-opens="company_menu"]')
+      const companyMenuButton = new MenuButton(companyMenu)
+      const connectMenu = document.querySelector('[data-inclusive-menu-opens="connect_menu"]')
+      const connectMenuButton = new MenuButton(connectMenu)
+
+      // Add the toggle behavior to the hamburger menu button for mobile.
+      const mobileMenuButton = document.querySelector(".navbar__toggler")
+      mobileMenuButton.addEventListener("click", function(){
+        let expanded = this.getAttribute('aria-expanded') === 'true' || false
+        this.setAttribute('aria-expanded', !expanded);
+
+        const menuContainer = document.querySelector("#navbarContent")
+        menuContainer.setAttribute('data-mobile-menu-show', !expanded)
+      })
+    </script>
+  </body>
+</html>

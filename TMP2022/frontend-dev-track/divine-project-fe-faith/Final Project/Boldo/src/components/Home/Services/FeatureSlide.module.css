@@ -1,0 +1,123 @@
+.featureCard {
+  margin-top: 2rem;
+}
+
+.figureImg {
+  position: relative;
+  overflow: hidden;
+}
+
+.pic {
+  width: 100%;
+  height: auto;
+  z-index: 4;
+  opacity: 0;
+}
+
+.featureContent {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.title {
+  font-family: var(--sub-font);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--black);
+}
+
+
+
+
+.text {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: var(--gray);
+  font-family: var(--sub-font);
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.title span span, .text span span {
+  transform: translateY(105%) rotate(7deg);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-right: auto;
+  border-bottom: 1px solid var(--black);
+  font-weight: 700;
+  font-family: var(--sub-font);
+  font-size: 1rem;
+  color: var(--dark-blue);
+  padding: 0.5rem 0;
+}
+
+.link {
+  font-size: 1.25rem;
+  align-items: normal;
+}
+
+.svg {
+  margin-left: 10px;
+}
+
+.picChange {
+  opacity: 1;
+  transition: all 1s linear;
+}
+
+
+.animate span span {
+  will-change: transform;
+  animation-name: animate;
+  animation-duration: 1s;
+  animation-delay: calc(
+    (0.03s * var(--word-index)) + (0.1s * var(--line-index))
+  );
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes animate {
+  from {
+    transform: translateY(105%) rotate(7deg);
+  }
+  to {
+    transform: translateY(0%) rotate(0);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+    padding-right: 1rem;
+  }
+
+  .text {
+    font-size: 1.25rem;
+    line-height: 26px;
+  }
+
+  .picChange {
+    transition: all 1s linear calc(1s * var(--delay));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .figureImg {
+    max-width: 300px;
+  }
+
+  .featureContent {
+    max-width: 300px;
+  }
+
+  .text {
+    margin: 1rem 0;
+  }
+}

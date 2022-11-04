@@ -1,0 +1,21 @@
+.staffContainer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .staffContainer {
+    margin: 0 auto;
+    margin-top: 3rem;
+    flex-direction: row;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  .staffContainer {
+    max-width: 1000px;
+  }
+}

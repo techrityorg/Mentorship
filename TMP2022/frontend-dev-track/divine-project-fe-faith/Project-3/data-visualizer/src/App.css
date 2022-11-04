@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.regenerate {
+  background-color: rgba(0, 0, 0, 0.805);
+  color: white;
+  margin-bottom: 10px;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

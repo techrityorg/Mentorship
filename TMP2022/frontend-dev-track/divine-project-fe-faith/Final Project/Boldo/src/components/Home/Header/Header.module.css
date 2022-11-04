@@ -1,0 +1,192 @@
+.wrapper {
+  background-color: var(--dark-blue);
+}
+
+.headerContainer {
+  padding: 1rem;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.headerContainer::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 80vmin;
+  width: 80vmin;
+  border-radius: 50%;
+  background-color: var(--half-circle);
+  top: 0;
+  right: 0;
+  transform: translateX(50%) translateY(-50%);
+  z-index: 1;
+}
+
+.header {
+  position: relative;
+  z-index: 3;
+  padding: 2rem 0;
+}
+
+.headerTitle {
+  font-size: 2.2rem;
+  color: var(--white);
+  font-weight: 400;
+  font-family: var(--main-font);
+  line-height: 3.2rem;
+}
+
+.headerContext {
+  font-size: 0.8rem;
+  padding: 1rem 0;
+  font-family: var(--main-font);
+  color: #f1f1f1;
+  line-height: 1.5rem;
+  padding-right: 2rem;
+}
+
+.headerNavigation {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+.headerNavigation button {
+  padding: 1.3rem 0;
+  margin: 0.5rem 0;
+  border-radius: 50px;
+  font-weight: 700;
+  font-family: var(--sub-font);
+  font-size: 1.2rem;
+}
+
+.buyTemplate,
+.explore {
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.buyTemplate {
+  background-color: var(--green);
+  color: var(--dark-blue);
+}
+
+.explore {
+  border: 2px solid var(--white);
+  color: var(--white);
+}
+
+.headerTitle span span {
+  transform: translateY(105%) rotate(7deg);
+}
+
+.headerTitleChange span span {
+  will-change: transform;
+  animation-name: headerTitleAnimate;
+  animation-duration: 1s;
+  animation-delay: calc(
+    (0.03s * var(--word-index)) + (0.1s * var(--line-index))
+  );
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes headerTitleAnimate {
+  from {
+    transform: translateY(100%) rotate(7deg);
+  }
+  to {
+    transform: translateY(0%) rotate(0);
+  }
+}
+
+.headerContext span span {
+  transform: translateY(120%) rotate(7deg);
+}
+
+.headerContextChange span span {
+  will-change: transform;
+  animation-name: headerContextAnimate;
+  animation-duration: 1s;
+  animation-delay: calc(1s + (0.3s * var(--line-index)));
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes headerContextAnimate {
+  from {
+    transform: translateY(100%) rotate(7deg);
+  }
+  to {
+    transform: translateY(0%) rotate(0);
+  }
+}
+
+.buyTemplateChange {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 1s 1.2s;
+}
+
+.exploreChange {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 1s 1.3s;
+}
+
+@media screen and (min-width: 768px) {
+  .headerContainer {
+    padding: 1.5rem 3rem;
+  }
+
+  .headerTitle {
+    font-size: 3rem;
+    line-height: 60px;
+    padding-right: 2rem;
+  }
+
+  .headerContext {
+    padding-right: 5rem;
+    font-size: 1rem;
+    line-height: 25px;
+  }
+
+  .headerNavigation {
+    flex-direction: row;
+  }
+
+  .headerNavigation button {
+    padding: 1.3rem 3.5rem;
+    margin-right: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .headerContainer {
+    max-width: 1800px;
+    padding: 2rem 5rem;
+    margin: 0 auto;
+  }
+
+  .headerContainer::after {
+    height: 720px;
+    width: 720px;
+  }
+
+  .headerWrapper {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    grid-column-gap: 7rem;
+    margin-top: 1.5rem;
+  }
+
+  .headerTitle {
+    padding-top: 0.5rem;
+  }
+
+  .headerNavigation button {
+    padding: 1rem 3rem;
+  }
+}

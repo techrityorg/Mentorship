@@ -1,0 +1,92 @@
+.wrapper {
+  background-color: var(--white);
+}
+
+.serviceContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.service {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.title {
+  font-size: 1rem;
+  font-family: var(--sub-font);
+  color: var(--gray);
+  font-weight: 400;
+  overflow: hidden;
+}
+
+.title span span {
+  transform: translateY(105%) rotate(3deg);
+}
+
+.content {
+  margin-top: 1.3rem;
+  font-size: 2.1rem;
+  font-family: var(--main-font);
+  color: var(--black);
+  line-height: 3.2rem;
+  font-weight: 400;
+  overflow: hidden;
+  width: 100%;
+}
+
+.content span span {
+  transform: translateY(105%) rotate(7deg);
+}
+
+.textAnimate span span {
+  will-change: transform;
+  animation-name: headerTitleAnimate;
+  animation-duration: 1s;
+  animation-delay: calc(
+    (0.03s * var(--word-index)) + (0.1s * var(--line-index))
+  );
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes headerTitleAnimate {
+  from {
+    transform: translateY(105%) rotate(7deg);
+  }
+  to {
+    transform: translateY(0%) rotate(0);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .serviceContainer {
+    padding: 3rem;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .content {
+    font-size: 3rem;
+    line-height: 60.88px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .serviceContainer {
+    padding: 3rem 5rem;
+    max-width: 1800px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .service {
+    max-width: 900px;
+  }
+}

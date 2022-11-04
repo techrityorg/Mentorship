@@ -1,0 +1,152 @@
+.aboutWrapper {
+  background-color: var(--dark-blue);
+}
+
+.aboutContainer {
+  padding: 2rem 1rem;
+}
+
+.aboutHeader {
+  text-align: center;
+}
+
+.subTitle {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--sub-font);
+  color: var(--light-gray);
+}
+
+.subTitle span span {
+  transform: translateY(105%) rotate(7deg);
+}
+
+.title {
+  font-size: 2.1875rem;
+  font-family: var(--main-font);
+  color: var(--white);
+  font-weight: 400;
+  padding: 1rem 0;
+  line-height: 54.6px;
+}
+
+.title span span {
+  transform: translateY(105%) rotate(7deg);
+}
+
+.AboutMain {
+  padding: 1rem 0;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.mainAnimate::before {
+  content: "";
+  height: 1px;
+  width: 0%;
+  display: block;
+  position: absolute;
+  top: 0;
+  animation-name: mainAnimate;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  border-top: 1px solid var(--white);
+}
+
+@keyframes mainAnimate {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.aboutContent {
+  margin: 1rem 0 3rem 0;
+}
+
+.aboutTitle {
+  font-size: 2rem;
+  font-family: var(--main-font);
+  color: var(--white);
+}
+
+.aboutTitle span span {
+  transform: translateY(105%) rotate(7deg);
+}
+
+.unique {
+  color: var(--green);
+}
+
+.content {
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  line-height: 24px;
+  color: var(--light-gray);
+  font-family: var(--sub-font);
+  font-weight: 400;
+}
+
+.content span span {
+  transform: translateY(105%) rotate(0deg);
+}
+
+@media screen and (min-width: 768px) {
+  .aboutWrapper {
+    padding: 3rem;
+  }
+
+  .aboutContainer {
+    padding: 0;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .subTitle {
+    font-size: 1.25rem;
+  }
+
+  .title {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 3rem;
+    line-height: 62px;
+  }
+
+  .AboutMain {
+    margin-top: 1rem;
+  }
+
+  .aboutContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+    margin: 2rem 0 4rem 0;
+  }
+
+  .aboutTitle {
+    text-align: left;
+    font-size: 3rem;
+  }
+
+  .content {
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 32px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .aboutContent {
+    grid-column-gap: 3rem;
+  }
+
+  .aboutContainer {
+    max-width: 1200px;
+  }
+}

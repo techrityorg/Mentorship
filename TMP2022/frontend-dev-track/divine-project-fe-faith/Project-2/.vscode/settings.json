@@ -1,0 +1,5 @@
+{
+  "dartsass.outputFormat": "cssonly",
+  "dartsass.targetDirectory": "assets/css",
+  "dartsass.disableSourceMap": true
+}

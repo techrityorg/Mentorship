@@ -1,0 +1,82 @@
+.blogCard {
+  margin: 1rem 0 2.5rem 0;
+}
+
+.blogPicBox {
+  width: 100%;
+}
+
+
+.blogPicBox img {
+  border-radius: 16px;
+  height: auto;
+  width: 100%;
+  height: auto;
+}
+
+.blogDetail {
+  font-family: var(--sub-font);
+  margin-top: 1rem;
+}
+
+.blogDetail h3 {
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 24.5px;
+  font-family: var(--sub-font);
+}
+
+.blogDetail time {
+  font-size: 0.8rem;
+  line-height: 24.5px;
+  color: var(--gray);
+  font-weight: 400;
+}
+
+.blogInfo p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: var(--sub-font);
+  line-height: 25.6px;
+  padding: 10px 1rem 5px 0;
+}
+
+.profile {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.profilePic {
+  height: 32px;
+  width: 32px;
+  margin-right: 0.75rem;
+}
+
+.profile h3 {
+  font-family: var(--sub-font);
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--black);
+  line-height: 24.5px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .blogDetail h3 {
+    font-size: 1rem;
+  }
+
+  .blogDetail time {
+    font-size: 1rem;
+  }
+
+  .blogInfo {
+    font-size: 1.25rem;
+    line-height: 32px;
+  }
+
+  .profile h3 {
+    font-size: 1rem;
+  }
+}
