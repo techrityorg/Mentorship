@@ -1,4 +1,4 @@
-# Techrity Mentorship Final Project - Portfolio Website
+# Techrity Mentorship Final Project - All Techrity Projects Website
 
 This is a solution to the Final Project of Techrity Frontend Development Mentorship.
 
@@ -24,7 +24,7 @@ All Techrity Projects Website
 ### The content
 
 The website showcases all the projects which I made during the techrity frontend development mentorship under the guidance of my mentor Siddhi Bhanushali.
-
+Check it out, live at: https://techrity.vercel.app/
 ### Screenshots
 
 ![image](https://user-images.githubusercontent.com/78131705/198638965-3bfff31b-f895-4660-959c-8a3ca1fa0107.png)
