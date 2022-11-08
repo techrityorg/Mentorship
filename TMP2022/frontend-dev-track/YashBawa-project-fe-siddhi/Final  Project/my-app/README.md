@@ -26,7 +26,8 @@ Techrity Mentorship Projects
 This website showcases all the projects made during the techrity frontend development mentorship under the guidance of my mentor Siddhi Bhanushali. 
 This is Website is a Responsive React App, Each projects Image is clickable and opens at its specific github repository , for brief details. 
 The Footer contains the link to the Repository containing all the projects made during the mentorship. 
-
+### Link to the Deploed Website
+https://yashbawa-techrity.netlify.app/
 ### Screenshots
 ![image](https://user-images.githubusercontent.com/90853282/199233421-aadce39b-f43e-4a91-9d36-d3b9d0d6c1d9.png)
 ![image](https://user-images.githubusercontent.com/90853282/199233471-ee04b917-e701-4e51-8b49-7c8643a496ca.png)
