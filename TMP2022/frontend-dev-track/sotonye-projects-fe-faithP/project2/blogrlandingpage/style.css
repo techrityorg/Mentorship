@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Overpass:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,500;1,600&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body{
+    background: hsl(0, 0%, 90%);   
+}
+
+.container{
+    background-color:  hsl(353, 100%, 62%);
+    background-image: url(images/bg-pattern-intro-mobile.svg);
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    background-position-y: -600px;
+    width: 100%;
+    height: 70vh;
+    border-bottom-left-radius: 18%;
+    
+}
+.navbar{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 90px;
+    align-items: center;
+    justify-content: center
+}
+.logo{
+    display: flex;    
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px 40px;  
+}
+#bugger{
+    display: none;
+}
+ul{
+    list-style: none;
+    flex: 1;    
+}
+li{
+    display: inline-block;  
+    padding: 0px 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    color: #ffff;
+    font-weight: 400;
+}
+.loginsignup-btn{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+   
+}
+a{
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+.signup{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-left: 40px;
+    padding: 8px 18px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background: #fff;
+    color: hsl(353, 100%, 62%);
+}
+.platform{
+    text-align: center;
+    margin-top: 100px;
+}
+.platform h1{
+    font-family: 'Overpass', sans-serif;
+    color: #fff;
+    font-size: 9vmin;
+    font-weight: 500;
+}
+.platform p{
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    padding-top: 10px;
+}
+.buttons{
+    padding-top: 20px;
+}
+.forfree, .learnmore{
+    padding: 10px 15px;
+    border-radius: 1.125rem;
+    outline: none;
+    border: none;
+    background: #fff; 
+    color: hsl(353, 100%, 62%);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.learnmore{
+    border: 1px solid hsl(0, 0%, 100%);
+    background: transparent;
+    color: hsl(0, 0%, 100%);
+}
+
+/* <!------------ design  for the future ---------------> */
+.design-future{
+    width: 100%;
+}
+.design-section{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    margin-left: 100px;
+    justify-items: center;
+}
+.design-future-text, .design-future-image{
+    flex-basis: 50%;
+}
+.design-future h1{
+    color:  hsl(208, 49%, 24%);
+    text-align: center;
+    padding-top: 70px;
+    font-size: 5.8vmin;
+    font-family: 'Overpass', sans-serif;
+}
+.first-para{
+    margin-top: 50px;
+}
+.first-para h3{
+    color:  hsl(208, 49%, 24%); 
+    font-family: 'Overpass', sans-serif;
+    font-size: 5vmin;
+}
+.first-para p{
+    font-size: 1rem;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(237, 23%, 32%);
+    line-height: 22px;
+    padding-top: 20px;
+}
+.second-para h3{
+    color:  hsl(208, 49%, 24%); 
+    font-family: 'Overpass', sans-serif;
+    font-size: 5vmin;
+    padding-top: 30px;
+}
+.second-para p{
+    font-size: 1rem;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(237, 23%, 32%);
+    line-height: 22px;
+    padding-top: 10px;
+}
+.design-future-image img{
+    width: 100%;
+    height: auto;
+    /* margin-left: 100px; */
+    margin-top: -100px;
+}
+
+/* <!------------ State of the Art Infasutructure ---------------> */
+.infastructure{
+    display: flex;
+    /* width: 100%;
+    height: 60vh; */
+    padding: 5px 15px;
+    margin-top: 150px;
+    background:  hsl(237, 17%, 21%);
+    background-image: url(images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position-y: -200px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+
+}
+.art-infas-image, .art-infas-text{
+    flex-basis: 50%;
+}
+.art-infas-image img{
+    width: 100%;
+    transform: translateY(-20%);
+}
+.art-infas-text{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+}
+.art-infas-text h3{
+    font-size: 5vmin;
+    margin-top: 70px;
+}
+.art-infas-text p{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 22px;
+    color: hsl(240, 2%, 79%);
+    padding-top: 10px;
+}
+
+/* <!------------- Free, open, simple ------------> */
+.free-open-simple{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.free-open-simple-img, .free-open-simple-text{
+    flex-basis: 50%;
+}
+.free-open-simple-img img{
+    width: 150%;
+    margin-left: -250px;
+}
+.free-open-simple-text{
+    margin-top: 140px;
+}
+
+/* <!------------- Footer ------------> */
+.footer{
+   padding: 40px 60px;
+    background:  hsl(237, 17%, 21%);
+    border-top-right-radius: 100px;
+    margin-top: 70px;
+}
+.footer-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: hsl(0, 0%, 100%);
+    padding-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: 'Ubuntu', sans-serif;
+}
+#logo img{
+    width: 100px;
+   
+}
+h4{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+small{
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+/*-------------------- media queries ----------------------------*/
+@media screen and (max-width: 770px){
+    .navbar{
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-top: 70px;
+    }
+    nav{
+        display: none;  
+        margin: 0px 10px; 
+    }  
+    #bugger{
+        display: block;
+    }
+    a, .signup{
+        display: none  
+    }
+    .platform{
+        text-align: center;
+        margin-top: 70px;
+    }
+    .platform h1{
+        /* font-size: px; */
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .platform p{
+        font-family: 'Overpass', sans-serif;
+        color: hsl(0, 0%, 100%);
+        font-size: 0.875rem;
+        padding-top: 10px;
+    }
+        /* <!------------ design  for the future ---------------> */
+    .design-section{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-items: center;
+        text-align: center;
+    }
+    .design-future-text, .design-future-image{
+        flex-basis: 100%;
+    }
+    .design-future-image{
+        margin-top: 100px;
+    }
+    #design-future h1{
+        padding-top: 50px;
+       
+    }
+    .first-para{
+        margin-top: 10px;
+    }
+    .first-para h3{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .first-para p{
+        line-height: 24px;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 0.875rem;
+    }
+    .second-para h3{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .second-para p{
+        line-height: 24px;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 0.875rem;
+    }
+    /* <!------------ State of the Art Infasutructure ---------------> */
+.infastructure{
+    display: block;
+    /* width: 100%;
+    height: 60vh; */
+    padding: 5px 15px;
+    margin-top: 150px;   
+
+}
+.art-infas-image, .art-infas-text{
+    flex-basis: 100%;
+}
+.art-infas-image img{
+    width: 100%;
+    transform: translateY(-20%);
+}
+.art-infas-text h3{
+    padding-top: -50px;
+    text-align: center;
+}
+.art-infas-text p{
+    font-weight: 300;
+    line-height: 22px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 0.875rem;
+}
+/* <!------------- Free, open, simple ------------> */
+#free-open-simple{
+    display: block;
+}
+.free-open-simple-img, .free-open-simple-text{
+    flex-basis: 100%;
+}
+.free-open-simple-img img{
+    width: 100%;
+    margin-left: 10px;
+}
+.free-open-simple-text{
+    text-align: center;
+    margin-top: 140px;
+}
+/* <!------------- Footer ------------> */
+
+.footer-container{
+    padding-top: 55px;
+    display: grid;
+    grid-template-columns: 1fr
+}
+#logo img{
+    width: 100px;
+   
+}
+h4{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+small{
+    display: block;
+    margin-bottom: 20px;
+    
+}
+}
