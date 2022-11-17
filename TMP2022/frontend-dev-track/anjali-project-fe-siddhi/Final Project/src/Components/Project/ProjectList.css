@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
 *{
   background-color: rgb(173, 177, 230);
-      font-family: 'Patrick Hand SC', cursive;
+      font-family: 'calibri';
   }
 nav{
   background-color: #ecebeb;
@@ -16,12 +16,12 @@ nav h1{
 }
 .PL_cont {
  
-  width: 95%;
+  width: 100%;
   /* background-color: saddlebrown; */
   padding: 0.5rem;
   margin: auto;
-  display: flex;
-  justify-content: space-between;
+  display: block;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .dhead{
@@ -30,12 +30,13 @@ nav h1{
   padding: .2rem 1rem;
 }
 .PL_display {
-  width: 40%;
+  width: 70%;
   padding: 2rem;
   background: #00000052;
   border-radius: .5rem;
   height: max-content;
-  margin: 1rem;
+  margin: auto;
+  margin-bottom: 2rem;
 }
 .P_image {
   width: 100%;
@@ -46,11 +47,16 @@ nav h1{
 .Project_refers {
   display: flex;
   width: 90%;
-  justify-content: space-between;
+  justify-content: center;
   margin: 1rem auto;
 }
 .Project_refers h2{
   margin: auto;
+  font-weight: 400;
+  font-size: 25px;
+  font-family:'arial';
+  color: aliceblue;
+  background-color: #262626;
 }
 .Project_ImgCont {
   width: 100%;
@@ -69,7 +75,10 @@ nav h1{
   background: #ffc107;
   transition: 0.5s;
   transform-origin: left;
-  transform: perspective(2000px) rotateY(-90deg);
+  transform: perspective(2000px) translateX(300px);
+
+    /* overflow-y: hidden; */
+
 }
 .center p {
   font-size: 0.75rem;
@@ -128,6 +137,19 @@ nav h1{
 }
 
 @media only screen and (max-width: 500px) {
+  .details {
+  position: inherit;
+  top: 0;
+  left: 0;
+  width: 70%; /*100%*/
+  height: 158x;
+  background: #ffc107;
+  transition: 0.5s;
+  transform-origin: left;
+  transform: perspective(2000px) translateX(1000px);
+    overflow-y: hidden;
+
+}
   .Project_refers {
     display: flex;
   }
@@ -139,6 +161,18 @@ nav h1{
   }
 }
  @media only screen and (max-width: 600px) {
+   .details {
+  position: inherit;
+  top: 0;
+  left: 0;
+  width: 70%; /*100%*/
+  height: 158x;
+  background: #ffc107;
+  transition: 0.5s;
+  transform-origin: left;
+  transform: perspective(2000px) translateX(1000px);
+  overflow-y: hidden;
+}
   .PL_cont{
     display: block;
   }
