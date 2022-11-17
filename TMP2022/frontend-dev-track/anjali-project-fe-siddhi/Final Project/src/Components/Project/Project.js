@@ -18,7 +18,13 @@ const Project = (props) => {
         </div>
       </div>
       <div className="Project_refers">
-        <h2>{props.title}</h2>
+        <div>
+          <button className="Ref_buttons">
+            <a href={props.visit} target="_blank" rel="noreferrer">
+              <h2>{props.title}</h2>
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );
