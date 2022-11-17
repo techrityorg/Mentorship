@@ -1,20 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
-*{
+* {
   background-color: #fcd6669c;
-   font-family: "Ubuntu";
+  font-family: "Ubuntu";
 }
-nav{
+h2{
+  background-color:#262626 ;
+}
+nav {
   background-color: #262626;
   display: flex;
   justify-content: center;
   color: #ffc107;
 }
-nav h1{
+nav h1 {
   background-color: #262626;
 }
 .PL_cont {
- 
   width: 95%;
   /* background-color: saddlebrown; */
   padding: 0.5rem;
@@ -42,10 +44,10 @@ nav h1{
 .Project_refers {
   display: flex;
   width: 90%;
-  justify-content: space-between;
+  justify-content: center;
   margin: 1rem auto;
 }
-.Project_refers h2{
+.Project_refers h2 {
   margin: auto;
 }
 .Project_ImgCont {
@@ -112,12 +114,14 @@ nav h1{
   border-radius: 0.5rem;
   font-size: 1.25rem;
   background-color: #262626;
+  cursor: pointer;
 }
 .Ref_buttons a {
   margin: inherit;
   font-size: inherit;
   text-decoration: none;
   color: wheat;
+  background-color: #262626;
 }
 .Project_cont {
   display: block;
@@ -134,11 +138,11 @@ nav h1{
     width: 100%;
   }
 }
- @media only screen and (max-width: 600px) {
-  .PL_cont{
+@media only screen and (max-width: 600px) {
+  .PL_cont {
     display: block;
   }
-  .PL_display{
+  .PL_display {
     width: 80%;
   }
 }
