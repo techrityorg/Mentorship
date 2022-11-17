@@ -162,7 +162,7 @@ const ProjectList = () => {
             image="https://user-images.githubusercontent.com/83454075/193798433-a0a9b6a5-e5d0-43fb-9f0b-a8915ddf6817.png"
             title="Weather App in ReactJS"
             subtitle="This is a solution to the Week-6: Project-3 of Techrity Frontend Development Mentorship."
-            visit="https://vercel.com/akd-01/w6-p3"
+            visit="https://w6-p3.vercel.app/"
           />
         </div>
       </div>
