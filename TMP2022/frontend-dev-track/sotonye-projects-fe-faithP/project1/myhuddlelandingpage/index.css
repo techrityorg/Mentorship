@@ -1,0 +1,558 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#header {
+  height: 95vh;
+  background-color: hsl(193, 100%, 96%);
+  background-image: url(images/bg-hero-mobile.svg);
+  background-position: center;
+  background-size: cover;
+}
+.logo {
+  display: flex;
+  margin-left: 90px;
+  margin-right: 90px;
+  justify-content: space-between;
+}
+.logo img {
+  width: 170px;
+  height: 30px;
+  margin-top: 30px;
+}
+.logo button {
+  margin-top: 30px;
+}
+.try-btn {
+  width: 130px;
+  height: 30px;
+  background: #fff;
+  font-size: 12px;
+  font-family: "poppins";
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container {
+  margin-left: 90px;
+  margin-right: 90px;
+  display: flex;
+}
+.left-container-col,
+.right-container-col {
+  flex-basis: 50%;
+}
+.left-container-col,
+.build-text {
+  margin-top: 70px;
+  font-size: 34px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+}
+p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: hsl(192, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+}
+.right-container-col img {
+  width: 100%;
+  margin-top: 80px;
+}
+.start-btn {
+  width: 230px;
+  height: 50px;
+  background: hsl(322, 100%, 66%);
+  color: #fff;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+/*----------- Grow together ---------------*/
+#grow-togeda {
+  display: flex;
+  margin: 80px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 60px;
+}
+.grow-left-col,
+.grow-right-col {
+  flex-basis: 50%;
+  padding: 30px;
+}
+.grow-left-col {
+  /* width:600px; */
+}
+.grow-left-col p {
+  font-size: 18px;
+  color: hsl(208, 11%, 55%);
+}
+.grow-text,
+.flow-text,
+.user-text {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+}
+.grow-right-col img {
+  width: 100%;
+}
+
+/*----------- Flowing Conversation ---------------*/
+#flow-convasation,
+#your-user {
+  display: flex;
+  margin: 80px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.flow-left-col,
+.flow-right-col {
+  flex-basis: 50%;
+  padding: 30px;
+}
+.flow-left-col img {
+  width: 100%;
+}
+.flow-right-col p {
+  font-size: 16px;
+  color: hsl(208, 11%, 55%);
+}
+
+/*----------- Your Users ---------------*/
+
+.user-left-col,
+.user-right-col {
+  flex-basis: 50%;
+  padding: 30px;
+}
+.user-right-col img {
+  width: 100%;
+}
+.user-left-col p {
+  font-size: 18px;
+  color: hsl(208, 11%, 55%);
+}
+
+/*----------- Footer ---------------*/
+#huddle-footer {
+  background: hsl(192, 100%, 9%);
+  height: 100vh;
+  margin-top: 140px;
+}
+.build-community {
+  display: flex;
+  align-items: flex;
+  justify-content: center;
+  z-index: 5;
+}
+.box {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  transform: translateY(-50%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 90vh;
+  height: 30vh;
+}
+.buildcom-text {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Open sans";
+  color: hsl(192, 100%, 9%);
+  margin-top: 35px;
+}
+.get-btn {
+  width: 40vh;
+  height: 40px;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+  font-family: "open sans";
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.footer-logo,
+.footer-link {
+  margin-left: 80px;
+  margin-top: 5px;
+}
+.footer-logo img {
+  width: 200px;
+}
+.footer-link-opt {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  font-family: "open sans";
+  color: #fff;
+  margin-bottom: 50px;
+}
+.link-opt-one,
+.link-opt-two,
+.link-opt-three,
+.link-opt-four {
+  margin-top: 20px;
+}
+.location,
+.phone,
+.email {
+  display: flex;
+  grid-column-gap: 20px;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+.link-opt-two small {
+  display: block;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+.link-opt-three small {
+  display: block;
+  padding-bottom: 30px;
+  font-size: 18px;
+}
+.link-opt-four ul {
+  display: flex;
+  grid-column-gap: 10px;
+  font-size: 18px;
+}
+
+/*--------------- media queries -------------------------- */
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .logo img {
+    width: 130px;
+    height: 20px;
+    margin-top: 25px;
+  }
+  .logo button {
+    margin-top: 25px;
+  }
+  .try-btn {
+    width: 110px;
+    height: 30px;
+  }
+  .container {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .left-container-col,
+  .right-container-col {
+    flex-basis: 100%;
+    margin-top: -25px;
+  }
+  .left-container-col {
+    justify-content: center;
+    text-align: center;
+    /* font-size: 30px; */
+  }
+  .left-container-col,
+  .build-text {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  p {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .get-btn {
+    width: 40vh;
+    height: 40px;
+  }
+  .right-container-col img {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  /*----------- Grow together ---------------*/
+  #grow-togeda {
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .grow-left-col,
+  .grow-right-col {
+    flex-basis: 100%;
+    padding: 35px;
+    text-align: center;
+    justify-content: center;
+  }
+  .grow-left-col p {
+    font-size: 16px;
+  }
+  .grow-text,
+  .flow-text,
+  .user-text {
+    font-size: 24px;
+  }
+  .grow-right-col img {
+    width: 100%;
+  }
+
+  /*----------- Flowing Conversation ---------------*/
+  #flow-convasation,
+  #your-user {
+    margin: 10px;
+  }
+  .flow-left-col,
+  .flow-right-col {
+    flex-basis: 100%;
+    padding: 35px;
+    text-align: center;
+    justify-content: center;
+  }
+  .flow-left-col img {
+    width: 100%;
+  }
+  .flow-right-col p {
+    font-size: 16px;
+  }
+
+  /*----------- Your Users ---------------*/
+
+  .user-left-col,
+  .user-right-col {
+    flex-basis: 100%;
+    padding: 35px;
+    text-align: center;
+    justify-content: center;
+  }
+  .user-right-col img {
+    width: 100%;
+  }
+  .user-left-col p {
+    font-size: 16px;
+  }
+  /*----------- Footer ---------------*/
+  #huddle-footer {
+    margin-top: 100px;
+  }
+  .box {
+    width: 55vh;
+    height: 20vh;
+  }
+  .buildcom-text {
+    font-size: 18px;
+    margin-top: 22px;
+  }
+  .get-btn {
+    margin-top: 15px;
+  }
+  .footer-logo,
+  .footer-link {
+    margin-left: 20px;
+  }
+  .footer-logo img {
+    width: 150px;
+  }
+  .footer-link-opt {
+    grid-template-columns: 1fr;
+    grid-gap: 18px;
+    padding-top: 0 10px 0 10px;
+  }
+  .link-opt-one,
+  .link-opt-two,
+  .link-opt-three,
+  .link-opt-four {
+    margin-top: 15px;
+  }
+  .location,
+  .phone,
+  .email {
+    grid-column-gap: 10px;
+    padding-bottom: 13px;
+  }
+  .link-opt-one small {
+    padding-bottom: 5px;
+    font-size: 15px;
+  }
+  .link-opt-two small {
+    padding-bottom: 13px;
+    font-size: 15px;
+  }
+  .link-opt-three small {
+    padding-bottom: 13px;
+    font-size: 15px;
+  }
+  .link-opt-four ul {
+    grid-column-gap: 7px;
+    font-size: 17px;
+  }
+}
+/*--------------- media queries --------------------------*/
+
+/* @media screen and (max-width:375px){
+  #header{
+    margin: 0 auto;
+    height:120vh;
+  }
+  .logo {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .logo img {
+    width: 110px;
+    height:20px;
+  }
+  .try-btn{
+    width:90px;
+    height:30px;;
+  }
+  .container{
+    display:block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .left-container-col, .right-container-col {
+    flex-basis: 100%;
+    margin-top:5px;
+  }
+  .left-container-col, .build-text{
+    margin-top: 30px;
+    font-size: 25px;
+  }
+  p {
+    font-size: 15px;
+    margin-top: 7px;
+  }
+  .right-container-col img{
+    width: 100%;
+    margin-top: 20px;
+  } */
+
+/* ----------- Grow together ---------------
+#grow-togeda{
+  margin: 10px;
+  align-items: center;
+  justify-content:center;
+  margin-top:40px; 
+}
+.grow-left-col, .grow-right-col{
+  flex-basis:100%;
+  padding:35px;
+}
+.grow-left-col{
+  text-align:center;
+}
+.grow-left-col p{
+  font-size:14px;
+}
+.grow-text,.flow-text, .user-text{
+  font-size: 19px;
+}
+.grow-right-col img{
+  width:100%;
+}
+
+/*----------- Flowing Conversation ---------------*/
+/* #flow-convasation, #your-user{
+  margin: 20px;
+}
+.flow-left-col, .flow-right-col{
+  flex-basis:100%;
+  padding:30px;
+}
+.flow-left-col img{
+  width:100%;
+}
+.flow-right-col{
+  text-align:center;
+}
+.flow-right-col p{
+  font-size:14px;
+} */
+
+/*----------- Your Users ---------------*/
+/* 
+.user-left-col, .user-right-col{
+  padding:30px;
+  flex-basis:100%;
+}
+.user-right-col img{
+  width:100%;
+}
+.user-left-col{
+  text-align:center;
+}
+.user-left-col p{
+  font-size:14px;
+} */
+
+/*----------- Footer ---------------*/
+/* #huddle-footer{
+  height:110vh;
+}
+.box{
+  width:55vh;
+   height:20vh;
+}
+.buildcom-text{
+  font-size:18px;
+  margin-top:22px;
+}
+.get-btn{
+  margin-top:10px;
+  width:30vh;
+  height:30px;
+}
+.footer-logo, .footer-link{
+  margin-left:20px;
+  margin-top:-12px;
+}
+.footer-logo img{
+  width:120px;
+}
+.footer-link-opt{
+  grid-template-columns:1fr;
+  grid-gap:15px;
+  margin-top:-10px;
+  padding-bottom:-10px;
+}
+.link-opt-one, .link-opt-two, .link-opt-three, .link-opt-four{
+ margin-top:15px;
+}
+.location, .phone, .email{
+  grid-column-gap:20px;
+  padding-bottom:7px;
+}
+.link-opt-one small{
+  font-size:12px;
+}
+.link-opt-two small{
+  font-size:12px;
+ padding-top:-10px;
+}
+.link-opt-three small{
+  font-size:12px;
+}
+.link-opt-four ul{
+  font-size:16px;
+} */
+/* } */
