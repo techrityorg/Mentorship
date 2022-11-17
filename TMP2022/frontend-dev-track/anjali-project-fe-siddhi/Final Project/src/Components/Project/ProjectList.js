@@ -20,9 +20,6 @@ import W5p3 from "../../assets/w5p3.png";
 const ProjectList = () => {
   return (
     <>
-      <nav>
-        <h1>Techrity Projects</h1>
-      </nav>
       <h1 className="dhead">Week-2 Projects</h1>
       <div class="PL_cont">
         <div className="PL_display">
