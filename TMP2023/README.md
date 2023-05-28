@@ -2,7 +2,7 @@
 
 _TMP Cohort III, May -  August 2023_
 
-![Techrity Mentorship Program](/TMP2022/tmp_banner.jpg)
+![Techrity Mentorship Program Cohort III](/TMP2023/tmp-3-banner.png)
 
 **See Program Curriculum on Slack**
 
