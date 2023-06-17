@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("./assets/images/bg-stars.svg");
+  background-color: hsl(235, 16%, 14%);
+}
