@@ -1,5 +1,3 @@
-
-
 ## Table of contents
 
 - [Techrity Mentorship: Project-1 - Launching-soon]
@@ -15,12 +13,14 @@
 
 ## Overview
 
-### Replicate launching soon desisn  with count down clock functionality
+### Replicate launching soon design with count down clock functionality
 
 ### Screenshots
+
 ![screenshot]('./desktop.png)
 
 ### Links
+
 Live Url - [click here](https://launching-coming-soon.vercel.app/)
 
 ## Built with
@@ -29,8 +29,6 @@ Live Url - [click here](https://launching-coming-soon.vercel.app/)
 - Tailwindcss
 
 ## Author
-
-
 
 ### Mentor
 
