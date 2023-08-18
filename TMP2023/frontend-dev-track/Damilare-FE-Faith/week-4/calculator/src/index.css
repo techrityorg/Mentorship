@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+*::before,
+*after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@layer base {
+  :root {
+    --main-background-color: hsl(222, 26%, 31%);
+    --keypad-background-color: hsl(223, 31%, 20%);
+    --screen-background-color: hsl(224, 36%, 15%);
+    --key-blue-color: hsl(225, 21%, 49%);
+    --key-blue-shadow: hsl(224, 28%, 35%);
+    --key-red-color: hsl(6, 63%, 50%);
+    --key-red-shadow: hsl(6, 70%, 34%);
+    --key-light-color: hsl(30, 25%, 89%);
+    --key-light-shadow: hsl(28, 16%, 65%);
+    --text-dark-color: hsl(221, 14%, 31%);
+    --text-white-color: hsl(0, 0%, 100%);
+    --text-screen-color: hsl(0, 0%, 100%);
+  }
+  .theme-2 {
+    --main-background-color: hsl(0, 0%, 90%);
+    --keypad-background-color: hsl(0, 5%, 81%);
+    --screen-background-color: hsl(0, 0%, 93%);
+    --key-blue-color: hsl(185, 42%, 37%);
+    --key-blue-shadow: hsl(185, 58%, 25%);
+    --key-red-color: hsl(25, 98%, 40%);
+    --key-red-shadow: hsl(25, 99%, 27%);
+    --key-light-color: hsl(45, 7%, 89%);
+    --key-light-shadow: hsl(35, 11%, 61%);
+    --text-dark-color: hsl(60, 10%, 19%);
+    --text-white-color: hsl(0, 0%, 100%);
+    --text-screen-color: hsl(60, 10%, 19%);
+
+  }
+
+  .theme-3 {
+    --main-background-color: hsl(268, 75%, 9%);
+    --keypad-background-color: hsl(268, 71%, 12%);
+    --screen-background-color: hsl(224, 36%, 15%);
+    --key-blue-color: hsl(281, 89%, 26%);
+    --key-blue-shadow: hsl(285, 91%, 52%);
+    --key-red-color: hsl(176, 100%, 44%);
+    --key-red-shadow: hsl(177, 92%, 70%);
+    --key-light-color: hsl(268, 47%, 21%);
+    --key-light-shadow: hsl(290, 70%, 36%);
+    --text-dark-color: hsl(52, 100%, 62%);
+    --text-white-color: hsl(0, 0%, 100%);
+    --text-screen-color:  hsl(52, 100%, 62%);
+  }
+}
+
+@layer components {
+  .btn__key {
+    @apply w-14 h-14 text-custom-key-dark  text-2xl  bg-custom-light  shadow-key-shadow-light flex justify-center items-center  rounded-lg cursor-pointer;
+  }
+  .btn__key-2 {
+    @apply w-14 h-14 text-center bg-custom-blue shadow-key-shadow-blue text-lg uppercase text-white flex justify-center items-center  rounded-lg cursor-pointer;
+  }
+  .btn__key-3 {
+    @apply w-auto h-14 text-center col-span-2 text-lg uppercase  flex justify-center items-center  rounded-lg cursor-pointer;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Spartan", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif; */
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: ; */
+  height: 100vh;
+  overflow: hidden;
+}
