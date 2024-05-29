@@ -1,0 +1,326 @@
+:root {
+	background-color: #f0f4f9;
+}
+
+section {
+	background-size: cover;
+	height: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding-top: 126px;
+	padding-bottom: 40px;
+}
+
+.body-container {
+	width: 100%;
+	height: 45vh;
+	background-color: #ffffff;
+	border: none;
+	margin: 0 200px;
+	padding: 48px 36px;
+	border-radius: 25px;
+}
+
+.icon-container {
+	display: flex;
+	justify-content: flex-start;
+	height: 50px;
+}
+
+.google-icon {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.left-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.signup-text {
+	display: block;
+	margin-left: 35px;
+	font-family: roboto, arial;
+	font-weight: 400;
+	font-size: 44px;
+	margin: 24px 0 0;
+}
+
+.signup-text-two {
+	display: block;
+	margin-left: 35px;
+	font-family: roboto, arial;
+	font-weight: 400;
+	font-size: 44px;
+	margin: 24px 0 0;
+	line-height: 0;
+}
+
+.continue-text {
+	display: block;
+	margin: 50px 0 0;
+	font-family: roboto, arial;
+	font-size: 16px;
+	color: #1f1f1f;
+}
+
+.right-section {
+	display: block;
+}
+
+.input-container {
+	position: relative;
+	margin-bottom: 90px;
+}
+
+.entry-container {
+	position: relative;
+}
+
+.input-box {
+	position: absolute;
+	width: 97%;
+	height: 63px;
+	margin-top: 20px;
+	border-radius: 5px;
+	outline: none;
+	border: 2px solid #1f1f1f;
+	box-sizing: border-box;
+	background: transparent;
+	transition: 0.1s ease;
+	z-index: 1111;
+}
+
+.input-box-two {
+	position: absolute;
+	width: 97%;
+	height: 63px;
+	margin-top: 110px;
+	border-radius: 5px;
+	outline: none;
+	border: 2px solid #1f1f1f;
+	box-sizing: border-box;
+	background: transparent;
+	transition: 0.1s ease;
+	z-index: 1111;
+}
+
+.placeholder {
+	position: absolute;
+	top: 40px;
+	left: 20px;
+	font-size: 17px;
+	font-family: roboto, arial;
+	transition: 0.2s ease;
+}
+
+.placeholder-two {
+	position: absolute;
+	top: 130px;
+	left: 20px;
+	font-size: 17px;
+	font-family: roboto, arial;
+	transition: 0.2s ease;
+}
+
+
+.input-box:focus,
+.input-box:valid {
+	color: #0b57d0;
+	border: 4px solid #0b57d0;
+}
+
+.input-box:focus+.placeholder,
+.input-box:valid+.placeholder {
+	color: #0b57d0;
+	height: 30px;
+	line-height: 30px;
+	transform: translate(-12px, -35px) scale(0.88);
+	z-index: 1111;
+	background-color: #ffffff;
+}
+
+.input-box-two:focus,
+.input-box-two:valid {
+	color: #0b57d0;
+	border: 4px solid #0b57d0;
+}
+
+.input-box-two:focus+.placeholder-two,
+.input-box-two:valid+.placeholder-two {
+	color: #0b57d0;
+	height: 30px;
+	line-height: 30px;
+	transform: translate(-12px, -35px) scale(0.88);
+	z-index: 1111;
+	background-color: #ffffff;
+}
+
+.Next {
+	position: absolute;
+
+	padding: 12px 30px;
+	border: 1px solid blue;
+	background-color: #0b57d0;
+	color: #f0f4f9;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 25px;
+	cursor: pointer;
+	right: 270px;
+	margin-top: 75px;
+}
+
+.Next:hover {
+	background-color: #0845a8;
+	border-radius: 25px;
+}
+
+footer {
+	display: flex;
+	position: absolute;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 70px;
+	width: 70%;
+	bottom: 150px;
+}
+
+.dropdown {
+	position: relative;
+	background-color: #f0f4f9;
+	border: none;
+}
+
+.dropdown option {
+
+	background-color: #ffffff;
+	color: #444746;
+	padding: 10px 30px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown:active {
+	outline: #0845a8;
+	border: 3px solid #0b57d0;
+}
+
+
+button:hover {
+	background-color: #e5eefc;
+	border-radius: 5px;
+}
+
+
+.closing button {
+	margin-left: 20px;
+	padding: 10px 15px;
+	border-radius: 10px;
+	border: none;
+	background-color: #f0f4f9;
+	cursor: pointer;
+
+}
+
+.closing button:hover {
+	background-color: #e5eefc;
+}
+
+
+@media (max-width:500px) {
+	:root {
+		background-color: #ffffff;
+		background-size: cover;
+		position: relative;
+		height: 100%;
+		width: 100%;
+	}
+
+	.body-container {
+		width: 100%;
+		height: 45vh;
+		background-color: #ffffff;
+		border: none;
+		margin: 0 200px;
+		padding: 48px 0px;
+		border-radius: 25px;
+	}
+
+	.icon-container {
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin: 30px 35px;
+	}
+
+	.left-section {
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin: 75px 35px;
+	}
+
+	.signup-text,
+	.signup-text-two {
+		font-size: 32px;
+	}
+
+	.right-section {
+		position: absolute;
+		top: 120px;
+		left: 30px;
+		right: 30px;
+		margin: 75px 0;
+	}
+
+	.input-container {
+		margin-top: 30px;
+	}
+
+	.input-box,
+	.input-box-two {
+		position: absolute;
+		width: 100%;
+	}
+
+	.Next {
+		position: absolute;
+		bottom: 140px;
+		right: 20px;
+	}
+
+	footer {
+		width: 100%;
+		position: absolute;
+		bottom: 30px;
+		left: 0;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.dropdown {
+		background-color: #ffffff;
+		cursor: pointer;
+		margin-left: 2px;
+	}
+
+	.closing button {
+		padding: 10px 5px;
+		border-radius: 10px;
+		border: none;
+		background-color: #ffffff;
+		cursor: pointer;
+	}
+}
