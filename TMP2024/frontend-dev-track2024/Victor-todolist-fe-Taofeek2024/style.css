@@ -1,0 +1,93 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 30px 0;
+}
+
+body {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.body-container {
+	width: 450px;
+	padding: 20px;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+}
+
+.inputContainer {
+	display: grid;
+	grid-template-columns: 4fr 1fr;
+	gap: 20px;
+}
+
+#taskInput {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+}
+
+.icon {
+	height: 50px;
+}
+
+
+#taskList {
+	width: 100%;
+	margin-top: 30px;
+	list-style: none;
+	overflow-y: scroll;
+	height: 80px;
+}
+
+li {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	width: 90%;
+	margin-top: 10px;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.delete {
+	padding: 4px;
+	background-color: rgb(8, 6, 133);
+	color: #fff;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-left: 25px;
+}
+
+.complete {
+	padding: 4px;
+	background-color: rgb(8, 6, 133);
+	color: #fff;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-left: 40px;
+}
+
+.completed {
+	text-decoration: line-through;
+}
+
+.edit-input {
+	padding: 8px 0px;
+	border-radius: 3px;
+	outline: 3px solid rgb(8, 6, 133);
+	width: 20%;
+}
