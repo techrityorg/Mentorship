@@ -46,6 +46,10 @@ main .container h2{
   outline: none;
 }
 
+.input-field::placeholder{
+  font-size: 0.8rem;
+}
+
 .todo-item-con{
   overflow-y: scroll;
 }
