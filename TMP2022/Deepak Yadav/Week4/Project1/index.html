@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function agecal()
+        {
+            var userinput = document.getElementById("dob").value;  
+    var dob = new Date(userinput); 
+    var month_diff = Date.now() - dob.getTime();  
+      
+    var age_dt = new Date(month_diff);   
+      
+    var year = age_dt.getUTCFullYear();  
+      
+    var age =(year - 1970);  
+    if(userinput==null || userinput=='') {  
+      document.getElementById("message").innerHTML = "**Choose a date please!";    
+      return false;   
+    }
+    
+    else if(age<1){
+        return document.getElementById("result").innerHTML ="Invalid";
+    } 
+    else {  
+       
+     
+      
+    return document.getElementById("result").innerHTML = "Your age is : "+age+" Years";  
+    }  
+        }
+    </script>
+</head>
+<body>
+    <h1 class="heading">Age Calculator</h1>
+    <p style="color: rgb(34, 14, 14) ;"><u>Your age must be equal or more than 1 Years</u></p><br><br>
+    <table class="table">
+        <tr>
+            <td class="table_data">Please select Date</td>
+            <td class="table_data"><input type="date" class="date_input" id="dob"></td>
+            <span id="message"></span>
+        </tr>
+        <tr>
+            <td colspan="2" class="table_data">
+                <button type="submit" class="btn" id="sbtn" onclick = "agecal()">Submit</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h2 style="color:32A80F" id="result"></h2>
+            </td>
+        </tr>
+        
+    </table>
+</body>
+</html>
