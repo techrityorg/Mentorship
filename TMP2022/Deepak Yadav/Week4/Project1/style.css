@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.heading{
+    color: #22213d;
+    font-size:50px;
+}
+.table{
+    margin: 0 auto;
+}
+.table_data{
+    padding: 0 30px;
+    color: #4e3188;
+    font-size: 30px;
+}
+.date_input{
+    border-color: #4e3188;
+    outline: none;
+    outline-style: none;
+    border-radius: 8px;
+    font-size: 30px;
+}
+.btn{
+    width: 70px;
+    height: 30px;
+    margin: 20px auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: #4e3188;
+}
+#message,#invalid{
+    color: red;
+}

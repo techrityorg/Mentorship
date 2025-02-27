@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+.header{
+    background-color: #114b5f;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: large;
+    padding: 0px 110px;
+    font-family: 'Reem Kufi Ink', sans-serif;
+}
+.contact{
+    background-color: #114b5f;
+    text-align: center;
+    height: 100px;
+
+    position: relative;
+    margin-top: 35px;
+    display: flex;
+    color: #ffffff;
+}
+.btn{
+    width: 120px;
+}
+
+.body-block{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(./images/school.jpg);
+    background-size:cover;
+    height: 300px;
+    color: aliceblue;
+    font-size: larger;
+    padding: 30px;
+}
+.School-name{
+    font-size: 100px;
+    margin: 0;
+}
+.body-block p{
+    font-size: 40px;
+    margin: 0;
+}
+.service{
+    height: 300px;
+    background-color: #f3e9d2;
+    padding: 20px 5px;
+}
+.information{
+    height: 40px;
+    background-color: #114b5f;
+    margin: auto;
+    text-align: center;
+}
+.listitem{
+    display: flex;
+    list-style-type: none;
+    margin:0;
+}
+.listitem li{
+    padding: 0 120px;
+    margin: auto;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-style: bold;
+    color: #ffffff;
+    
+}
+.information div{
+    display: flex;
+    background-color: #cabbe9;
+    height:270px;
+    width: 330px;
+    display: inline-block;
+    margin-top: 17px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.marquee{
+    height: 30px;
+    width: 100%;
+    background-color:#fff591;
+    position:absolute;
+    margin-top: 278px;
+    white-space:nowrap;
+}
+.marquee div{
+    width: 100%;
+    animation: animate 25s linear infinite;
+    padding-left: 100%;
+    display: inline-block;
+    color: #b31313;
+}
+@keyframes animate{
+    100%{
+        transform: translate(-100%,0);
+    }
+}
+.add{
+    position: absolute;
+    left: 40px;
+}
+.phone{
+    position: absolute;
+    right:40px ;
+}
