@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+text-align: center;
+}
+.table{
+    margin: 0 auto;
+    background-color: #5eaaa8;
+    
+}
+.container{
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #b30753;
+    display:inline-block;
+    border-radius: 4px;
+}
+.btn{
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    background-color: #1b435d;
+    color: white;
+    font-size: 25px;
+    transition: 200ms;
+}
+.btn:hover{
+    background-color: #ff895d;
+    border-radius: 20px;
+    transition: 150ms;
+}
+.view{
+    width: 200px;
+    height: 40px;
+    background-color: #d5eeff;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+}

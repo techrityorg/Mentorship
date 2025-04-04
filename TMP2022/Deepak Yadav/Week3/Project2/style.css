@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #35477d;
+}
+.main {
+    width: 260px;
+    height: 400px;
+    margin: auto;
+    padding: 0;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #c06c84;
+}
+.img{
+    background-color: #354761;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.profileimg{
+    margin-top: 30px;
+    width: 100px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+}
+h2{
+    margin-bottom: 0px;
+    
+}
+p{
+    margin: 7px;
+}
+.social{
+    margin-top: 30px;
+}
+.icon{
+    margin: auto;
+    padding:5px;
+    font-size:27px;
+    color: #ffffff    ;
+}

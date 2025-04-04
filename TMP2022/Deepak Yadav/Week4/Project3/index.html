@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+<script src="script.js"></script>
+</head>
+<body>
+    <h3 class="heading">Form : </h3><br><br>
+    <div class="container">
+    <form action="#" method="get" class="main-table" onsubmit=" return val()">
+        <table cellspacing="10px" class="table">
+            <tr class="table-row">
+                <td class="labels">
+                    Name:
+                </td>
+                <td>
+                    <input type="text" name="" class="input" id="fname">
+                </td>
+            </tr>
+            <tr >
+                <td class="labels">
+                    Gender: 
+                </td>
+                <td class="gndr">
+                    <input type="radio" name="gender" id="male" class="rd-btn" ><label for="male">Male</label><input type="radio" name="gender" id="female" class="rd-btn"><label for="female">Female</label>
+                </td>
+            </tr> 
+            <tr>
+                <td class="labels">
+                    <label >Age:</label>
+                </td>
+                <td>
+                    <input type="number" id="age" class="input">
+                </td>
+            </tr>
+            <tr>
+                <td class="labels">
+                    <label >Degree:</label>
+                </td>
+                <td>
+                    <select name="" id="degree" class="input">
+                        <option value="null"></option>
+                        <option value="1">B A</option>
+                        <option value="2">B.Sc</option>
+                        <option value="3">B.Com</option>
+                        <option value="4">M A</option>
+                        <option value="5">M.Sc</option>
+                        <option value="6">M.Com</option>
+                        <option value="7">PHD</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="labels">
+                    Graduation Year:
+                </td>
+                <td>
+                    <input type="month" class="input" id="gyear">
+                </td>
+            </tr>
+            <tr>
+
+                <td class="labels">
+                    Resume:
+                </td>
+                <td>
+                    <input type="file" class="upload" id="resume">
+                </td>
+            </tr>
+            <tr>
+                <td class="labels-brief">Brief Introduction: <br> (Optional)</td>
+                <td>
+                    <textarea name="" id="" cols="50" rows="10" class="intro"></textarea>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" class="submit-btn" name="submit" value="submit">
+    </form>
+</div>
+</body>
+</html>
